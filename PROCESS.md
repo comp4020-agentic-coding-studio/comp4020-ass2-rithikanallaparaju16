@@ -20,27 +20,36 @@ One paragraph: the thing, and the idea behind it.
 
 ## How I got here
 
-The account of the process: how the work actually went, and how you knew the
-result was right. Tell it in whatever order makes it clear. A weekly prototype
-needs a paragraph or two; an assignment needs more.
+<!-- Raw log kept as citations land, to rewrite into prose before submitting. -->
 
-Cite the record as you go, as links whose text is the commit hash or range and
-whose target is this repo's commit or compare URL, so a reader clicks straight
-to the evidence:
+The course concept came out of a back-and-forth about what "advanced
+overthinking" should actually teach, then a steer toward an activity-first,
+discussion-driven shape:
 
-- one commit: [`a1b2c3d`](https://github.com/YOUR-ORG/YOUR-REPO/commit/a1b2c3d)
-- a range:
-  [`a1b2c3d...e4f5a6b`](https://github.com/YOUR-ORG/YOUR-REPO/compare/a1b2c3d...e4f5a6b)
+> i wanna make a course called "advance overthinking" which helps the student
+> realise when theyre overtthinking and minimise it. its about not thinking
+> less but thinking intentionally. it has to seriously explain and activitues
+> can help reduce it. firsy there can be some actvivty where we all
+> overanalyse a simple "ok" in layers and then discuss ab when we couldve
+> stopped and ewhy. there is no right or wrong answer. we can discuss a simple
+> funny thing that we overhtined ab nad hwat it turned out to be. there can
+> also be an activity where we learn to overthink the best scenarios as well
+> because positive thinking. tell me what you think ab it, we can refine it
+> more
 
-To pair a prompt with the commit it produced, quote the prompt (curated, not a
-full transcript) next to the citation:
+> let it be more activity and less theory based, more like this agentic
+> course where we learn mostly from discussions instead of lectures
 
-> the prompt, verbatim
+> Start building it
 
-Screenshots are welcome where one carries the point better than a sentence does.
-Commit the file to this repo and link it with a **relative** path, which is what
-makes it render on GitHub: `![alt text](docs/before.png)`. Images don't count
-towards the word count and don't replace the citation.
+[`95de165`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/95de165) —
+built that into the site: four discussion-first studio sessions ("The layered
+'OK'", "The reveal", "Aim it at the good", "When it helps"), one lecture
+repurposed to explain why the course doesn't otherwise run on lectures, two
+holistic assessments (a mid-semester audit, an open-ended capstone), the
+course record and session labels (Studio/Studios), and matching homepage/hub
+copy. Verified with `pnpm check` (types, build, axe, link-checker, spec test —
+all clean) and a manual pass over the rendered pages in a browser.
 
 ## Before you ship
 

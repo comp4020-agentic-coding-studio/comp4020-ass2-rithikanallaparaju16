@@ -1,30 +1,36 @@
 ---
-title: Opening lecture
+title: Why this course doesn't run on lectures
 description:
-  The first lecture — what the course is, why it is shaped this way, and what
-  happens in week 1
+  The one lecture-shaped page in the course — why the rest of the semester
+  runs on studios instead, and what to bring to the first one
 week: 1
 date: 2027-02-22
 teachers:
   - marisol-quaye
-slides: /decks/week-01/
 related:
-  - sessions/01-getting-started
+  - sessions/01-the-layered-ok
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
+This page exists so the lectures listing isn't empty, and to put one decision
+on the record rather than leave it implicit: **this course does not run on
+lectures**. What would normally be a lecture is a studio (see
+[Studios](/sessions/)), because the thing being taught — noticing your own
+thinking, in the moment — doesn't transmit by being told. It shows up in the
+doing, and in the discussion afterwards.
 
-Replace this page. A lecture entry says what was covered and links to the pages
-that own the detail, so the lecture stays short and nothing is explained twice.
+## What that means in practice
 
-The `related:` ref above is a graph edge: it renders on this page and on the
-session's, so declare a connection once, on whichever side is convenient.
+- No slide deck walking through theory before an activity. If a concept has a
+  name, it turns up after you've already produced the thing it names, not
+  before.
+- Marking follows from the two written assessments (see
+  [Assessment](/assessments/)), not from an ability to recite what happened
+  in a lecture.
+- The reading and the framing for each week live on that week's studio page,
+  rather than sitting apart from it here.
 
-The page renders its `slides:` link automatically. Decks are markdown too,
-under `src/decks/`; the path is part of the lecture's API metadata.
+## Before week 1
 
-## Outline
-
-- what the course is for
-- how the weeks are shaped
-- what to do before the first session
+Come to the first studio, [The layered "OK"](/sessions/01-the-layered-ok/),
+with your phone or a memory of an over-read message. Nothing else to
+prepare.

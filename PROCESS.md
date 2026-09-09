@@ -150,7 +150,7 @@ incubation *directly* about overthinking rather than adjacent to it. The name
 stayed, on the grounds that it is the constraint that caught the drift — a
 broader title would have let all four pages quietly pass.
 
-[`e18ce93`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/e18ce93) —
+[`e2ea6d1`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/e2ea6d1) —
 added the doomscrolling lecture ("The blank that isn't"), rewrote the
 incubation lecture around the repetition claim, gave the sandwich and
 meditation studios opening sections stating why they are in an overthinking

@@ -420,6 +420,36 @@ who everyone is, and the site publishes results once a vote closes. The
 policies page says exactly that, because a poll that looks live and means
 nothing would be worse than not having one.
 
+Then the name, which had been an open question for several rounds:
+
+> A "what changed your mind" close. Week 12: everyone names one thing they
+> believed in week 1 that the semester overturned — including about the
+> course. Ends on revision rather than summary. this is the concept of
+> assignment 2 anyways so its okay. now what should thenname of this course
+> be? suggest alternate names, but sumn that agrees to all aspects, name
+> should be intereestig.
+
+[`98708f4`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/98708f4) —
+renamed the course from **Advanced Overthinking** to **Unfinished Thinking**,
+rewrote the course description around the central claim, added "overthinking"
+as a tag so the search term survives the rename, and wrote the title's second
+reading into the standing caveat.
+
+I had defended the old name twice, including in the round where I worried the
+content had drifted off-topic and the name turned out to be what caught the
+drift. What changed my mind was not drift but contradiction: once the humility
+material went in — the caveat that this is taught by people who have not
+mastered any of it — the word *Advanced* was arguing against the course, since
+it implies both mastery and a prerequisite. A title that contradicts your own
+policies page is worse than a title that is merely imperfect.
+
+The new one names the argument and then turns it on itself, which is the part
+I actually wanted: the spiral is unfinished thinking, and so is the course, and
+so is the research it cites. The cost is stated honestly in
+`reflections/reflections.md` — "overthinking" is no longer in the title, so it
+became a tag instead. A name that carries the argument was worth more than a
+name that carries the search term.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

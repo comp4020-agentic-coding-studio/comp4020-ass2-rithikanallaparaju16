@@ -124,6 +124,33 @@ research I checked, and prose I directed and rewrote, on a fictional course —
 it did not do my noticing for me, and PROCESS.md logs every prompt so anyone
 can judge whether that line held.
 
+## Renaming the course, and why the old name had to go
+
+The course was called **Advanced Overthinking** for most of its life, and I
+defended it twice — once when I worried the content had drifted away from
+overthinking, where the name turned out to be the thing that caught the drift.
+
+What finally moved me was not drift but contradiction. Once the humility
+material went in — the standing caveat that this is taught by people who have
+not mastered any of it, that quality of life is not something anyone finishes
+— the word *Advanced* was arguing against the course. It implies mastery, and
+it implies a prerequisite. Neither is true here, and a title that contradicts
+your own policies page is a worse problem than a title that is merely
+imperfect.
+
+**Unfinished Thinking** names the argument instead: overthinking is not too
+much thinking, it is thinking that never gets to finish, so it starts again.
+And the second reading is the one I actually like — the course is unfinished,
+the research is unfinished, half the studies on the site are small and several
+are contested, and the central claim has never been tested directly. The title
+says that about itself. It is now written into the caveat on the policies page
+so the joke does some work rather than sitting there being clever.
+
+The cost is real and worth recording: the word "overthinking" is no longer in
+the title, so a student browsing a handbook for it might not stop. That is why
+it became a course tag. A name that carries the argument was worth more to me
+than a name that carries the search term.
+
 ## The respect rule, and what it cost me
 
 Asking for a serious anti-bullying policy turned out to break something I had

@@ -323,6 +323,66 @@ definition of participation as *doing the activity* rather than talking —
 because a course about anxiety that awarded marks for speaking up would be
 marking the symptom.
 
+Then the assessment got redesigned around peers and a post-exam log:
+
+> okay one assignment can be due the the mid term break time, where students
+> speak abit sumn small they overthinkied ab and how they managed to stop from
+> that happening if they could , these are be posted anonymously and other
+> students can reply and discuss if they have been facing sumn similar and help
+> eachothwer out, and do it as a group but they will never know their teammates
+> if they dont want to. then afyer the exams of all students there can be
+> another assignment due that students log everything they overthinkied and how
+> the techniques in this course or anything else that helped them so we can
+> include it in the next semester. […] this should be submitted 24 hours after
+> the last persons exam, this is not a last min work so there wont be any rush.
+> […] attendance if sick or any issue can be informed before to the lecturer,
+> students are free to discuss and vote on the ed forum as to which place we
+> should go every lecture and after assignment 1, all the techniques used my
+> students will be anonymously put and students can vote as to which is good
+> and interetsing […] the course has to promote that this "qulity of life"
+> cannot be mastered by any one we have to be humble and keep learning from the
+> universe. students can suggest topics of lectures […] This course is strictly
+> against AI for completing assignments, athough can be used for grammar and
+> presentling assignment cleanly. […] can be used for research
+
+[`6b32249`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/6b32249) —
+added "The anonymous thread" (20%, due in the mid-semester break), turned the
+audit into "The log" (25%, due 24 hours after the whole cohort's last exam),
+dropped the capstone to 35%, modelled a mid-semester break and an exam period
+in the calendar, wrote the policies page including the AI rule, and handed
+three decisions to the students by forum vote.
+
+Two things in this round are the strongest design ideas in the project and
+neither was mine.
+
+**Anonymity as a mechanism rather than a courtesy.** The first assignment is
+anonymous to other students *and* to the teaching staff, with marking run off
+forum participation data so that nobody can grade a post against a person.
+Students are grouped without being told who is in their group. That directly
+serves the effect the course is trying to produce — the discovery that the
+thing you assumed was your private malfunction has eleven other people in the
+thread — and names get in the way of it.
+
+**The log being due after everybody's exams, not after each student's own.**
+It is a small distinction that removes a whole category of stress, and it only
+works because the log is kept as you go, so submission is tidying a file
+rather than writing an assignment. It also carries the course feedback that
+feeds the next cohort's syllabus, which turns the last assessment into the
+course's own input rather than its output.
+
+The AI policy was worth writing carefully, because it lands in an obvious
+irony: this site was built with an agent while telling students not to use one.
+The line the policies page draws is that research is thinking and outsourcing
+the noticing is not — AI is allowed for grammar, presentation and finding
+techniques to bring to class, and not for writing anything about your own
+thinking. Whether this repo held to its own version of that line is a fair
+question to put to it, and every prompt is logged above so it can be judged.
+
+Also: `reflections/reflections.md` now exists and is being kept up to date
+with the reasoning behind each decision. `pnpm check:evidence` notes it is not
+a filename markers read — for an assignment repo this file, PROCESS.md, is the
+written account — so treat it as working notes to fold in here.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

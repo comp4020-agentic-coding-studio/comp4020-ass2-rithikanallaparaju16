@@ -27,11 +27,17 @@ resolves nothing. It did not explain the most annoying thing about it, which
 is the *repetition*. Why does the same thought come back at 2am having made no
 progress since 11pm?
 
-This lecture proposes an answer, and it is the closest thing this course has
-to a central claim: **a loop repeats because it never gets the conditions
-under which thinking finishes.** Not because you are bad at thinking, and not
-because the problem is unusually hard. Because the slot where it would have
-completed is occupied.
+This lecture proposes an answer, and it is the claim the course is named
+after: **a loop repeats because it never gets the conditions under which
+thinking finishes.** Not because you are bad at thinking, and not because the
+problem is unusually hard. Because the slot where it would have completed is
+occupied.
+
+Unfinished thinking. That is the whole title, and this is the week it stops
+being a phrase on a handbook page and starts being an argument you can test.
+Four weeks of catching yourself in the act came first on purpose — the
+mechanism means very little until you have a stack of your own examples to
+hold it against.
 
 To make that argument we need to know what those conditions actually are,
 which is where the research comes in. Ask people where they last solved

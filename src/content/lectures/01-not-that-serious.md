@@ -23,6 +23,24 @@ page by the Friday before. Being outside is not a vibe decision — see below �
 but it does mean the class starts on time and cannot start late, because there
 is nowhere to wait.
 
+## One sentence up front, unearned
+
+The next four weeks are about the thing you already recognise: catching
+yourself overthinking, out loud, in a room where everyone else is doing it
+too. No framework first. You will have a stack of your own examples before
+anybody offers you a theory about them.
+
+But you get one sentence now, and it is deliberately unearned: **we think a
+spiral repeats because the thinking never gets to finish.**
+
+That is where the course gets its name, and it is the argument the whole
+semester builds toward. It should not mean much to you yet — that is the
+point. [The empty slot](/lectures/05-the-empty-slot/), in week 5, is where we
+make the case properly and show you the research it rests on.
+
+Take it as a promissory note. If it has not been paid by mid-semester, say so
+on the forum.
+
 ## The first ten minutes
 
 Every lecture and every crit in this course opens the same way: ten minutes

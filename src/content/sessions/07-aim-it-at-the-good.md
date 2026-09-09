@@ -4,7 +4,7 @@ description:
   The same overanalysis, run on a best-case scenario instead of a worst one —
   overthinking as a skill you can point, not just a habit to suppress.
 week: 7
-date: 2027-04-05
+date: 2027-04-12
 teachers:
   - marisol-quaye
 spec:
@@ -13,7 +13,7 @@ spec:
   - you can say what changed, or did not, about how it felt to do it
 related:
   - 11-when-it-helps
-  - assessments/the-audit
+  - assessments/the-log
 ---
 
 ## Before the session
@@ -35,6 +35,6 @@ that it does not cost on the negative one, and what does that cost tell you?
 
 ## Afterwards
 
-Keep whatever you produced. The audit is already behind you by this point, so
-this one feeds the capstone instead — an activity that aims the machinery
-somewhere new is exactly what that brief asks for.
+Keep whatever you produced. It feeds the capstone directly — an activity that
+aims the machinery somewhere new is exactly what that brief asks for — and it
+is worth a line in your log either way.

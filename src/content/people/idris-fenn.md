@@ -2,7 +2,7 @@
 title: Idris Fenn
 description:
   A tutor running most of the semester's crits and the empty-slot lecture,
-  and marking both the audit and the final project.
+  and marking every piece of assessed work in it.
 affiliation: Slop University School of Invented Disciplines
 role: tutor
 email: idris.fenn@slop.university

@@ -5,8 +5,8 @@ description:
   activity that catches overthinking somewhere the course hasn't already
   looked
 week: 9
-due: 2027-04-23T12:00:00+10:00
-weight: 50
+due: 2027-04-30T12:00:00+10:00
+weight: 35
 marking:
   mode: holistic
   description:

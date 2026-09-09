@@ -42,6 +42,6 @@ that was overthought, not the version that actually happened.
 
 ## Afterwards
 
-Nothing to submit, but keep this one in mind going into the audit — the same
+Nothing to submit, but keep this one in mind for your log — the same
 gap, between what got built up and what actually happened, is the raw
 material for that assessment.

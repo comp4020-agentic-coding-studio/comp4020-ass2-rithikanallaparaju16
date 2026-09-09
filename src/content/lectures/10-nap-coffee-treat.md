@@ -5,7 +5,7 @@ description:
   three things students reach for under stress, and what the evidence says
   about each. One of them does the opposite of what you think.
 week: 10
-date: 2027-04-26
+date: 2027-05-03
 teachers:
   - marisol-quaye
 spec:
@@ -15,16 +15,20 @@ spec:
     one can leave you worse off
 related:
   - 05-the-empty-slot
-  - assessments/the-audit
+  - assessments/the-log
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the
 [ten-minute detox](/lectures/01-not-that-serious/).
 
-Nothing is due in this course for the rest of semester. That is deliberate and
-it is explained on the [Assessment](/assessments/) page. What it means for
-today is that we can spend a whole lecture on the least glamorous question in
-the course: when you are fried and spiralling in week 10, what actually helps?
+Nothing more is due in this course during teaching. The only thing left is
+[the log](/assessments/the-log/), which you have been keeping as you go and
+which is not due until after the whole cohort's exams are finished. That is
+deliberate, and it is explained on the [Assessment](/assessments/) page.
+
+What it means for today is that we can spend a whole lecture on the least
+glamorous question in the course: when you are fried and spiralling in week
+10, what actually helps?
 
 The folk answer is a nap, a coffee, or something sweet. One of those is well
 supported, one is genuinely double-edged in a way that matters specifically in

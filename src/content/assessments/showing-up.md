@@ -5,7 +5,7 @@ description:
   these are techniques and techniques need practice, with the absences and
   the silence both accounted for.
 week: 12
-due: 2027-05-14T17:00:00+10:00
+due: 2027-05-21T17:00:00+10:00
 weight: 20
 marking:
   mode: weighted
@@ -20,7 +20,7 @@ spec:
     activity, not spoke the most
   - nothing to submit; this accrues across the semester
 related:
-  - the-audit
+  - the-log
 ---
 
 ## Why this is marked at all

@@ -99,7 +99,7 @@ nobody has to reorganise their morning.
 
 Nobody checks. There is no log, no streak, and no part of your mark that
 depends on it. If you decide after four weeks that it does nothing for you,
-that is a genuinely useful finding and the audit is a good place to say so.
+that is a genuinely useful finding, and your log is exactly where it belongs.
 
 If sitting still with your own thoughts is not a neutral experience for you —
 and for some people it isn't — the pass rule applies here as it does

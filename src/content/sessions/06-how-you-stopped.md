@@ -17,7 +17,7 @@ spec:
 related:
   - 02-the-reveal
   - 07-aim-it-at-the-good
-  - assessments/the-audit
+  - assessments/the-log
 ---
 
 ## Before the session

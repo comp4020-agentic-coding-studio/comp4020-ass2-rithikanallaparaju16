@@ -450,6 +450,46 @@ so is the research it cites. The cost is stated honestly in
 became a tag instead. A name that carries the argument was worth more than a
 name that carries the search term.
 
+Then the teaching order, which came with an instruction to check it:
+
+> read everypage and chnage it according to this title, idea stays the same
+> but wording can chnage a little, add this step in reflctions and keep
+> updating process.md, so this course is structure is to start off with
+> taggetting one of the main results of unfinished thinking that is
+> overthinking then slowly paves the path into unfinished thiking this way
+> student can relate more, check online and see if its true, if anything
+> contradicts lets chnage , check and let me know
+
+[`7130c14`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/7130c14) —
+reworded every page around the new title, made the arc explicit (weeks 1–4 on
+the symptom, week 5 on the claim), added the ordering rationale and its
+counter-evidence to the lectures index, and gave the people index and 404 page
+real copy so no page still reads as template.
+
+This is the round where checking changed the design rather than just
+confirming it, which is the pattern I most want in the write-up.
+
+The instinct was backed on direction and wrong on timing. Concreteness fading
+reviews better than either extreme (Fyfe, McNeil, Son and Goldstone, 2014),
+and Schwartz and Bransford (1998) found analysing cases before a lecture beats
+being told first — that endorses the course's existing rule that a concept is
+named only after students produce the thing it names. But withholding the
+organising idea until mid-semester is not supported. Luiten, Ames and
+Ackerson's meta-analysis of 135 studies (1980) found a small real benefit
+(d ≈ 0.21, larger in higher education) from a brief frame stated up front, and
+four weeks of activities with no stated claim is the exact failure that
+predicts — a failure this repo had already produced once, when four pages
+drifted off-topic with nothing tying them back.
+
+The fix satisfies both literatures instead of splitting the difference, since
+an advance organizer is a sentence and not a lecture: week 1 states the
+argument in one line, calls it unearned, and promises payment by week 5; weeks
+1–4 stay on the symptom; week 5 discharges it. The lectures index publishes
+the reasoning *and* its two best counter-arguments — that the fading evidence
+is mostly school-age maths, and that Kaminski, Sloutsky and Heckler's
+contested 2008 *Science* paper found generic examples transferring better than
+concrete ones.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

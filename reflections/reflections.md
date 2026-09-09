@@ -151,6 +151,50 @@ the title, so a student browsing a handbook for it might not stop. That is why
 it became a course tag. A name that carries the argument was worth more to me
 than a name that carries the search term.
 
+## Sequencing: start at the symptom, and the correction I had to take
+
+Once the course was called Unfinished Thinking, the teaching order needed a
+decision. My instinct was to open on **overthinking** — which is really just
+the most recognisable *result* of unfinished thinking — and only pave the way
+toward the underlying idea later, on the grounds that students can relate to
+the symptom and not yet to the mechanism.
+
+I checked it rather than assuming, and the research came back split.
+
+**The direction was right.** Concreteness fading — start concrete, move toward
+the abstract — reviews better than either concrete-only or abstract-only
+(Fyfe, McNeil, Son and Goldstone, 2014). And Schwartz and Bransford (1998)
+found that students who analysed cases *before* a lecture learned more than
+students told first, which is exactly the rule the crits already ran on: a
+concept gets named after you have produced the thing it names.
+
+**The timing was wrong, and this is the useful part.** I had planned to
+withhold the organising idea until mid-semester. The advance-organizer
+literature says don't: Luiten, Ames and Ackerson's meta-analysis of 135
+studies (1980) found a small but real benefit — around d = 0.21, larger in
+higher education and on delayed retention — from giving learners a brief
+high-level idea up front so new material has something to attach to. Four
+weeks of well-made activities with no stated claim is precisely the failure
+that predicts, and this site had already produced a version of that failure
+once, when four pages drifted off-topic and nothing tied them back.
+
+The two literatures turn out to be compatible, and the resolution is a real
+design improvement rather than a compromise. Ausubel's organizer is a *brief
+anchoring sentence*, not a lecture; Schwartz and Bransford's finding is that
+*detailed telling* before exploration fails. So week 1 now states the argument
+in one sentence, explicitly calls it unearned, and tells students it will be
+paid by week 5 — a promissory note they can hold the course to. Weeks 1–4 stay
+entirely on the symptom. Week 5 discharges it.
+
+I put the whole rationale, including the caveats against it, on the lectures
+index. Two of those are worth keeping in mind: the fading evidence is mostly
+from maths and early science with school-age learners, so using it here is an
+extrapolation and the page says so; and one contested *Science* paper
+(Kaminski, Sloutsky and Heckler, 2008) found the reverse — generic examples
+transferring better than concrete ones, because concrete cases can bind
+learning to their surface features. A course sequenced concrete-first should
+know its strongest counter-evidence.
+
 ## The respect rule, and what it cost me
 
 Asking for a serious anti-bullying policy turned out to break something I had

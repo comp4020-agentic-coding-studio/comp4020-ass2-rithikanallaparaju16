@@ -171,6 +171,47 @@ of this. The "mind goes blank" phenomenology, which is the thing the prompt
 described, has no research behind it at all, and the lecture hands it to
 students as the best open question in the course.
 
+Then the course got serious about being a course:
+
+> we are trying to make it a serious course, so a lecture and a crit each
+> week. when the exams are approaching, this course doesnt give more stress,
+> the major assignments are due in the time where the other courses do not
+> have stress, when the stressful weeks are going on, we concentrate on how to
+> manage that and how sweettreat,coffee or a nap fixes most of the things, pls
+> check research i might be wrong
+
+[`a6810c8`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/a6810c8) —
+relabelled the sessions as Crits, moved the audit to week 6 and the capstone
+to week 9 so nothing is due after week 9, and added the week 10 lecture on
+what actually helps under load. Every content file was renumbered so its
+number is its week.
+
+The best thing in this commit is the assessment calendar, and it came from the
+prompt rather than from me. A course about not adding to your mental load
+should not add to your mental load, so both assessments now land in the quiet
+middle of semester and the last three teaching weeks — everyone else's crunch
+— carry no deadline at all. That is a design argument the site makes out loud
+on the assessment page.
+
+The research pass corrected the prompt on two of its three points, which is
+becoming the pattern. The nap holds up: Brooks and Lack (2006) found ten
+minutes optimal, and thirty minutes produces a period of *impaired* alertness
+first, so "have a nap" is worse advice than "have a ten-minute nap." Coffee is
+oversold — Rogers et al. (2010) argue it returns habitual drinkers to baseline
+rather than above it — and it carries an anxiety risk that matters more in
+this course than most. The sweet treat is simply wrong: Mantantzis et al.
+(2019) meta-analysed 176 effect sizes and found no positive mood effect at any
+time point, with alertness *lower* and fatigue *higher* within the hour. The
+sugar rush does not exist. The lecture keeps the biscuit and credits the ten
+minutes away from the desk instead, which is exactly the confusion the course
+exists to catch — you had a break and credited the sugar.
+
+The honesty rule also bit the assessment page itself. I could find good
+institutional practice against "assignment bunching" and a plausible
+mechanism, but no study isolating clustered against spread deadlines with
+proper wellbeing measures. So the page states the timing as design reasoning
+rather than a finding, and invites students to argue with it.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

@@ -490,6 +490,55 @@ is mostly school-age maths, and that Kaminski, Sloutsky and Heckler's
 contested 2008 *Science* paper found generic examples transferring better than
 concrete ones.
 
+Then deliberate slowness, the mobile nav, and softening the schedule claim:
+
+> also add that we should practice "deliberetly slow down" we rush
+> unintentionally, we walk too fast, we eat quick, we unload groceries quicly
+> we start by waking up in a rush we grab breakfast, we are supposed to sit
+> and enjoy the meal. […] the nav has a mobile menu — that's where it'd break.
+> take care of that, you can choose to make it into a burger menu in phone.
+> […] lets soften the claim for now, add this idea as well
+
+[`a708949`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/a708949)
+and
+[`7677d57`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/7677d57) —
+fixed a keyboard failure in the nav at the harness level, softened the
+schedule claim, and added the week 4 crit "Deliberately slow".
+
+**The nav fix is the clearest case in the project of diagnosing rather than
+retrying.** I had twice reported that the site might be clipping at phone
+width, on the strength of screenshots. It wasn't: measuring `innerWidth`
+showed 500 when 390 was requested, because macOS Chrome clamps its window
+minimum, so every "clipped" screenshot was a 390-wide crop of a wider layout.
+Once I drove the page through real device emulation instead, the actual defect
+turned up — the theme's nav binds no key to dismiss its mobile menu, so a
+keyboard user who opened it at phone width was stuck. Escape did nothing.
+
+The fix went into an injected script and a small local Astro integration
+rather than into the theme, so it survives a theme upgrade, and it calls
+`.click()` on the theme's own toggle rather than setting the attributes
+itself — the theme owns the `inert` bookkeeping and duplicating it is how the
+two would drift apart. The same run cleared three things that were fine:
+no overflow at 390, resize-mid-interaction recovering correctly, and visible
+focus rings on the first six tab stops starting with the skip link.
+
+**The slowness crit is where the research contradicted the prompt outright**,
+and the contradiction is now the most interesting thing on the page. Slower
+*eating* is well supported (Robinson et al. 2014, 22 experiments, SMD ≈ 0.45,
+though with no effect on reported hunger and nothing measured on enjoyment).
+Slower *walking* points the other way: Michalak, Rohde and Troje (2015) found
+reduced gait speed is part of the sad walking pattern. Groceries, showers and
+waking slowly have no evidence at all and say so. I also declined two things
+it would have been easy to reach for — "hurry sickness", since the
+time-urgency half of Type A did not survive (Myrtek 2001), and Dijksterhuis's
+deliberation-without-attention, which failed replication.
+
+The page then argues against itself with Mor and Winquist's meta-analysis of
+226 effect sizes: self-focused attention tracks negative affect, rumination
+most of all, so telling students to attend closely to their own hands may be
+a rumination exercise with better branding. The crit states the bet it is
+making instead of hiding the problem.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

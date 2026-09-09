@@ -123,3 +123,47 @@ students not to. The distinction I would defend is the same one: the agent did
 research I checked, and prose I directed and rewrote, on a fictional course —
 it did not do my noticing for me, and PROCESS.md logs every prompt so anyone
 can judge whether that line held.
+
+## The respect rule, and what it cost me
+
+Asking for a serious anti-bullying policy turned out to break something I had
+already written, which is the most useful kind of feedback.
+
+I had said the first assignment was anonymous to *everyone*, teaching staff
+included, and been pleased with it. But a forum where nobody can ever be
+identified is a forum with no way to deal with someone being cruel in a thread
+full of people admitting things. So the policy is now the honest version:
+anonymous to other students and to markers, identifiable by a moderator if a
+post is reported. Anonymity protects you from being judged, not from the
+respect rule.
+
+I would rather the site say that plainly than let a student find out the hard
+way that a promise of total anonymity could not be kept. It is also the one
+page on the site written with no dry humour on it at all, deliberately.
+
+## Soft deadlines as a policy, not a favour
+
+Two of the four deadlines are now soft by design and say so on the page: the
+forum post can run from the end of the break's first week to the end of the
+break, and the log has a day or two past its date, no questions asked.
+
+The reasoning is that an extension you have to request is not the same thing
+as time you are entitled to. Asking costs some students nothing and costs
+others a great deal — the ones least likely to ask are usually the ones who
+most need it. Building the slack into the published deadline removes that
+sorting entirely. The early date on the forum post still does real work: it
+gets most people posting at once so the thread has something in it to reply
+to.
+
+## What the website cannot do
+
+Worth recording because it is the one place a technical limit shaped the
+design. Live voting cannot run on this site. It is a static build on GitHub
+Pages — no login, no server — so an embedded poll would either be open to the
+whole internet or impossible to audit, and one-vote-per-student is exactly
+what it cannot enforce.
+
+So the polls live on the Ed forum, which already knows who everyone is, and
+the site publishes results once a vote closes. The honest version of "can the
+website do this?" was no, and saying so on the policies page is better than a
+poll that looks live and means nothing.

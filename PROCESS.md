@@ -383,6 +383,43 @@ with the reasoning behind each decision. `pnpm check:evidence` notes it is not
 a filename markers read — for an assignment repo this file, PROCESS.md, is the
 written account — so treat it as working notes to fold in here.
 
+Then respect, soft deadlines and a question about voting:
+
+> the last assignment can extend for a day or 2, mid term break asssignment is
+> due in the first week of mid break can extend upto the end. the course needs
+> everybody to be respectful and considerate any behaviour of bullying or
+> anything negative is gonna be very seriousl ly taken action against. for
+> help, they can contact tutors, conveynors ed forum, and even the meditation
+> guru(cant expect reply quicly) ed forum is the best place.also can live
+> voting be shown on the website itself? every student can vote only once.
+
+[`70c2888`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/70c2888) —
+added the respect policy, made two deadlines soft on the page rather than on
+request, ranked the help routes by how fast a reply comes, moved to a two-week
+mid-semester break (so weeks 7–12 and the exam period shift back a week and
+the course now ends 21 June), and answered the voting question on the site.
+
+The respect requirement broke something I had already written, which was the
+useful part. I had described the first assignment as anonymous to *everyone*,
+teaching staff included. That cannot survive an anti-bullying policy: a forum
+nobody can ever be identified in has no way to protect the people being honest
+in it. So the page now says posts are anonymous to other students and to
+markers, and identifiable by a moderator if reported — anonymity protects you
+from being judged, not from the respect rule. Better to state the limit than
+to let a student discover that a promise of total anonymity could not be kept.
+
+The soft deadlines are worth a note too. An extension you have to request is
+not the same thing as time you are entitled to: asking costs some students
+nothing and others a lot, and the ones least likely to ask tend to be the ones
+who need it most. Publishing the slack removes that sorting.
+
+And the voting answer was no. This site is a static build with no login and no
+server, so it cannot enforce one vote per student — an embedded poll would be
+open to the internet or un-auditable. The polls run on Ed, which already knows
+who everyone is, and the site publishes results once a vote closes. The
+policies page says exactly that, because a poll that looks live and means
+nothing would be worse than not having one.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

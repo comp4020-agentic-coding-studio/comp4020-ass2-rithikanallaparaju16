@@ -15,6 +15,7 @@ spec:
     settled something, spiralled, or neither
 related:
   - lectures/05-the-empty-slot
+  - 04-deliberately-slow
   - 06-how-you-stopped
 ---
 

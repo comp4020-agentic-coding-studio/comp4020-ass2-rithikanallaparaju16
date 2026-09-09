@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import type { AstroIntegration } from "astro";
 import courseGraph from "astro-course-university";
 import universityTheme from "astro-theme-university";
 import { astromotion, deckRemarkPlugins } from "astromotion";
@@ -9,6 +10,20 @@ import { gitOrigin, resolveDeployment } from "./scripts/pages-base.ts";
 // Derived, never hardcoded --- see scripts/pages-base.ts for why.
 const { site, base } = resolveDeployment(process.env, gitOrigin);
 
+// The theme's nav opens its mobile menu on click but binds no key to close
+// it, which leaves a keyboard user stuck inside it at phone widths. Injecting
+// the fix here rather than editing the theme keeps it working across theme
+// upgrades --- see src/scripts/nav-escape.ts for why it reuses the theme's
+// own toggle instead of setting the attributes itself.
+const navEscape: AstroIntegration = {
+  name: "unfinished-thinking:nav-escape",
+  hooks: {
+    "astro:config:setup": ({ injectScript }) => {
+      injectScript("page", 'import "/src/scripts/nav-escape.ts";');
+    },
+  },
+};
+
 export default defineConfig({
   site,
   base,
@@ -18,6 +33,7 @@ export default defineConfig({
   // 301 on GitHub Pages.
   trailingSlash: "always",
   integrations: [
+    navEscape,
     universityTheme({
       defaultLayout: "src/layouts/PageLayout.astro",
       // The whole brand choice: three colour tokens and a set of lockups. Keep

@@ -5,7 +5,7 @@ description:
   overthought and what stopped it, anonymously, then reply to the people whose
   post could have been yours.
 week: 6
-due: 2027-04-09T17:00:00+11:00
+due: 2027-04-09T17:00:00+10:00
 weight: 20
 marking:
   mode: weighted
@@ -46,10 +46,17 @@ malfunction has eleven other people in the thread.
 
 ## Anonymity, precisely
 
-Posts and replies are **anonymous to everyone, including the teaching staff.**
+Posts and replies are **anonymous to other students and to the markers.**
 Marking works from the forum's participation data, which tells us that an
 account posted and replied, not which post was whose. So nobody grades your
-content against your name, because nobody can.
+content against your name.
+
+One limit, stated plainly because you should know it before you post: a
+moderator **can** identify an author if a post is reported. Anonymity here
+protects you from being judged, not from the
+[respect policy](/policies/#respect). A forum where nobody could ever be
+identified would be a forum with no way to deal with someone being cruel in a
+thread full of people admitting things, and that trade is not worth making.
 
 You are working in a group of six for the replies, and here is the part people
 ask about: **you will not be told who is in your group, and they will not be
@@ -57,13 +64,19 @@ told about you.** If you would rather work with people you know, you can opt
 into a named group instead — say so in week 4 and we will arrange it. Most
 people don't, which is the interesting finding of running this every year.
 
-## Why it is due in the break
+## Why it is due in the break, and how long you actually have
 
-Because it should not compete with anything. The mid-semester break is the one
-week with no classes, no other deadlines from us, and — for most of you — a
-gap before the second half arrives. Writing one honest paragraph and reading a
-dozen others is roughly a two-hour job, and a break week is where a two-hour
-job belongs.
+Because it should not compete with anything. The mid-semester break has no
+classes, no other deadlines from us, and — for most of you — a gap before the
+second half arrives. Writing one honest paragraph and reading a dozen others
+is roughly a two-hour job, and a break is where a two-hour job belongs.
+
+The date above is the **end of the first week of the break**, and it is a
+soft deadline: you can take it right through to the **end of the break** with
+no penalty, no form, and nobody to ask. The early date is there so that most
+people are posting at the same time and the thread has something in it to
+reply to; the extension is there because a break you have to work through is
+not a break.
 
 ## What it turns into
 

@@ -5,7 +5,7 @@ description:
   that refuses to treat feelings as problems to solve, and a Zimbabwean
   intervention built on the idea that other people close your loops
 week: 8
-date: 2027-04-19
+date: 2027-04-26
 teachers:
   - idris-fenn
 spec:

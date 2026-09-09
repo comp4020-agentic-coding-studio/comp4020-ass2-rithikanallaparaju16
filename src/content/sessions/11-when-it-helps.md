@@ -5,7 +5,7 @@ description:
   genuinely was the right call, and how overthinking behaves differently in a
   group than it does alone.
 week: 11
-date: 2027-05-10
+date: 2027-05-17
 teachers:
   - idris-fenn
 spec:

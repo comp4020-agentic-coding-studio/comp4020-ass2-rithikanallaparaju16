@@ -4,7 +4,7 @@ description:
   The same overanalysis, run on a best-case scenario instead of a worst one —
   overthinking as a skill you can point, not just a habit to suppress.
 week: 7
-date: 2027-04-12
+date: 2027-04-19
 teachers:
   - marisol-quaye
 spec:

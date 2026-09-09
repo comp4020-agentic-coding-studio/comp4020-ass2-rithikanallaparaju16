@@ -5,7 +5,7 @@ description:
   overthinking and what you did about it, kept all semester and handed in
   after everyone's exams are over.
 week: 12
-due: 2027-06-12T17:00:00+10:00
+due: 2027-06-19T17:00:00+10:00
 weight: 25
 marking:
   mode: holistic
@@ -58,6 +58,10 @@ went, submitting it is a matter of tidying the file and adding the note at the
 end. If you did not keep it as you went, no amount of the last twenty-four
 hours will reconstruct it convincingly, and that will be visible — which is
 the only reason the marking says "actually kept as you went".
+
+**The deadline is soft by a day or two.** Take the extra time if you want it;
+you do not need to ask, explain, or apologise. It would be a strange course
+that manufactured a rush over the last thing it collects.
 
 ## The feedback part
 

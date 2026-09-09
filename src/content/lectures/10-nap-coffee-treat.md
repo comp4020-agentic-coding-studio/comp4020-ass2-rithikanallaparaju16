@@ -5,7 +5,7 @@ description:
   three things students reach for under stress, and what the evidence says
   about each. One of them does the opposite of what you think.
 week: 10
-date: 2027-05-03
+date: 2027-05-10
 teachers:
   - marisol-quaye
 spec:

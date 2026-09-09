@@ -47,7 +47,7 @@ export const courseMeta = slopCourseMetaSchema.parse({
   year: 2027,
   level: 6,
   startDate: "2027-02-22",
-  endDate: "2027-06-12",
+  endDate: "2027-06-21",
   description:
     "Why does a spiral repeat? This course argues it is because the thinking " +
     "never gets to finish, and builds the conditions where it can — outdoors, " +

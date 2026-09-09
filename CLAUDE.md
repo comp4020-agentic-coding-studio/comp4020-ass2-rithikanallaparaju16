@@ -1,10 +1,15 @@
 # Working rules for this repo
 
-This repo builds the course site for **SLOP6676 Advanced Overthinking**, a
-fictional course about noticing the moment you could have stopped thinking and
-choosing, on purpose, whether to keep going. The platform is fixed and
-documented in `README.md`. Everything below is about the content that goes on
-top of it.
+This repo builds the course site for **SLOP6676 Unfinished Thinking**, a
+fictional course arguing that overthinking is not too much thinking but
+thinking that never gets to finish — and teaching the conditions under which a
+loop can close. The platform is fixed and documented in `README.md`.
+Everything below is about the content that goes on top of it.
+
+The title carries the argument, so keep it load-bearing: if a page can't say
+how it bears on that claim, it doesn't belong. The second meaning is
+deliberate too — the course and the field are both unfinished, which is why
+nothing here is written as settled.
 
 ## No invented facts
 

@@ -4,9 +4,9 @@
 
 <!-- MINE TO REWRITE: the draft below is accurate but it isn't in my voice. -->
 
-**SLOP6676 Advanced Overthinking** — a course site for a fictional
-postgraduate course about noticing when you are overthinking and choosing, on
-purpose, whether to keep going.
+**SLOP6676 Unfinished Thinking** — a course site for a fictional postgraduate
+course about noticing when you are overthinking and choosing, on purpose,
+whether to keep going.
 
 The idea it ended up arguing is narrower than the one I started with. Most
 advice about overthinking tells you to think less. This course claims the

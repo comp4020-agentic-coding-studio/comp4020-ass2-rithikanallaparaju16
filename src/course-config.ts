@@ -42,16 +42,16 @@ export const slopCourseMetaSchema = z
 // navigation label and /api/index.json all read this object.
 export const courseMeta = slopCourseMetaSchema.parse({
   code: "SLOP6676",
-  title: "Advanced Overthinking",
+  title: "Unfinished Thinking",
   session: "Semester 1",
   year: 2027,
   level: 6,
   startDate: "2027-02-22",
   endDate: "2027-06-21",
   description:
-    "Why does a spiral repeat? This course argues it is because the thinking " +
-    "never gets to finish, and builds the conditions where it can — outdoors, " +
-    "in silence, and ten minutes at a time. You practise catching the loop, " +
-    "then learn to aim the same over-analysis at what could go right.",
-  tags: ["metacognition", "discussion-based", "decision-making"],
+    "Overthinking is not too much thinking. It is thinking that never gets to " +
+    "finish, so it starts again. This course builds the conditions where a " +
+    "loop can close — outdoors, in silence, ten minutes at a time — then aims " +
+    "the same over-analysis at what could go right.",
+  tags: ["overthinking", "metacognition", "discussion-based"],
 }) satisfies CourseMetaInput;

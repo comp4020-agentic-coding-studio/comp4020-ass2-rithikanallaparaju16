@@ -258,6 +258,71 @@ mechanism, but no study isolating clustered against spread deadlines with
 proper wellbeing measures. So the page states the timing as design reasoning
 rather than a finding, and invites students to argue with it.
 
+Then culture, attendance, and the reasoning behind the weekly rhythm:
+
+> also want the meditation guider to be an Indian, this course needs to be
+> culturally diverse, techniques from various cultures can be included. and
+> for reflections, you can add how we stepped from just overhtinking to giving
+> ways to pivot and deal with it in a better way. talk about how much this is
+> something we all face but is never adressed seriously. […] also made this
+> course have lecture and studio every week unlike before whuch had either
+> each week because i strongly beliebve tha this should be practiced on
+> adaily basis and this course will stcikc with the students forever. and even
+> passed down and hopefully chnage a few things ab themselves that they always
+> wanted to in a slightly easieer way. the quality of life is sumn that is
+> very imp and the course focuses mainly on this. […] the attendace in
+> lectures and the participation in crits also have marks. this course has
+> mandatory attendance because these techniques need practice and cant be
+> online, classes are recorded, but physical attendance matters, so allocate
+> marks for that as well
+
+[`b1f6ffa`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/b1f6ffa) —
+replaced the visiting teacher with Revathi Menon, who teaches vipassana-style
+practice in the Indian tradition the ten minutes is borrowed from; added the
+week 4 lecture on provenance and the week 8 lecture on Morita therapy and the
+Friendship Bench; published meditation's adverse-effect rates alongside its
+benefits; and added a 20% attendance-and-participation component, dropping
+the audit to 30 and the capstone to 50. The reasoning about the weekly
+rhythm and quality of life went into "Why the course is shaped this way",
+above.
+
+Two things from this round are worth keeping in the write-up.
+
+**The cultural brief made the course better by making it more sceptical, not
+less.** Asking for cultural diversity could have produced a tour of nice
+practices. Instead the research turned up a correction and a pattern. The
+correction: the standard "MBSR is just Vipassana with the religion removed"
+story is too simple — Husgafvel (2019) shows Kabat-Zinn was also shaped by
+Mahāyāna, Zen and Dzogchen teachers, so the site says "Buddhist contemplative
+traditions, plural". The pattern: the popular four-circle *ikigai* was made by
+a British blogger in 2014 from a Spanish diagram, and the four-phrase
+hoʻoponopono is a 2000s self-help product, not a Hawaiian one. Both follow the
+same route — a communal practice compressed into a portable graphic and
+recirculated as ancient authenticity, with the point moved from repairing
+something between people to optimising one individual. That is a lecture, and
+it is more honest than a syllabus of borrowed techniques with no history
+attached.
+
+The most uncomfortable thing it turned up is now on the site: Gee et al.
+(2014) set out seven domains of connection in Aboriginal and Torres Strait
+Islander social and emotional wellbeing, of which mind and emotions is *one*.
+Nearly everything this course does lives in that single domain. I left that
+contradiction on the page instead of resolving it, because I do not think I
+can resolve it.
+
+**Marked attendance is the sharpest tension in the course and I decided to
+name it rather than smooth it.** A course whose standing promise is "you can
+always pass, no reason needed" now compels attendance. The evidence is
+genuinely split: Credé et al. (2010) show attendance predicts grades better
+than almost anything else (ρ ≈ .44), but the same meta-analysis puts
+*mandatory policies* at d = .21 from three studies. Confusing those two is
+exactly the inferential slip the course teaches people to catch, so the page
+says the requirement rests on an argument rather than on that evidence. The
+design answer is three no-questions-asked absences on each half and a
+definition of participation as *doing the activity* rather than talking —
+because a course about anxiety that awarded marks for speaking up would be
+marking the symptom.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

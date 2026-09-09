@@ -1,15 +1,15 @@
 ---
 title: Nadia Okonkwo
 description:
-  A visiting meditation teacher who runs the week 3 studio and set the format
+  A visiting meditation teacher who runs the week 3 crit and set the format
   for the ten minutes every class opens with.
 affiliation: Visiting practitioner
 role: visiting teacher
-contact: Present for the week 3 studio only; questions about the practice are best asked there.
+contact: Present for the week 3 crit only; questions about the practice are best asked there.
 ---
 
 Teaches meditation professionally and is in this course for exactly one
-session, [Ten minutes, guided](/sessions/02-ten-minutes-guided/), after which
+session, [Ten minutes, guided](/sessions/03-ten-minutes-guided/), after which
 the ten-minute detox stops being something the teaching staff improvise.
 
 Comes recommended partly for being unusually unbothered by sceptical

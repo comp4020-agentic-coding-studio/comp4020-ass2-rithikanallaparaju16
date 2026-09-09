@@ -3,8 +3,8 @@ title: The reveal
 description:
   Everyone brings something small they overthought; the room guesses the
   ending before you tell it.
-week: 4
-date: 2027-03-15
+week: 2
+date: 2027-03-01
 teachers:
   - idris-fenn
 spec:
@@ -13,7 +13,7 @@ spec:
   - you can say what the room's guesses had in common, and what that says
     about how the group predicts outcomes
 related:
-  - 05-how-you-stopped
+  - 06-how-you-stopped
   - lectures/02-the-spiral
 ---
 

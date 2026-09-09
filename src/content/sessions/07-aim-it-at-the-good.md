@@ -3,16 +3,16 @@ title: Aim it at the good
 description:
   The same overanalysis, run on a best-case scenario instead of a worst one —
   overthinking as a skill you can point, not just a habit to suppress.
-week: 8
-date: 2027-04-12
+week: 7
+date: 2027-04-05
 teachers:
   - marisol-quaye
 spec:
   - you have overanalysed a best-case scenario with the same seriousness the
-    earlier studios gave to worst-case ones
+    earlier crits gave to worst-case ones
   - you can say what changed, or did not, about how it felt to do it
 related:
-  - 07-when-it-helps
+  - 11-when-it-helps
   - assessments/the-audit
 ---
 
@@ -23,7 +23,7 @@ plausibly go well.
 
 ## In the session
 
-Run the full layered-analysis machinery from the first studio, but point it
+Run the full layered-analysis machinery from the first crit, but point it
 at the best realistic version of that outcome. Same rigour, same refusal to
 stop early, same willingness to sit in a layer that feels slightly excessive.
 Notice what resistance shows up — "this feels indulgent", "isn't this just
@@ -35,5 +35,6 @@ that it does not cost on the negative one, and what does that cost tell you?
 
 ## Afterwards
 
-Keep whatever you produced — it is fair game to draw on for the audit, due
-two weeks after this studio.
+Keep whatever you produced. The audit is already behind you by this point, so
+this one feeds the capstone instead — an activity that aims the machinery
+somewhere new is exactly what that brief asks for.

@@ -4,8 +4,8 @@ description:
   The science lecture — what research actually says about rumination, why
   worry feels productive when it isn't, and the one place the popular story
   runs ahead of the evidence
-week: 5
-date: 2027-03-22
+week: 2
+date: 2027-03-01
 teachers:
   - marisol-quaye
 spec:
@@ -14,8 +14,8 @@ spec:
   - you can name one claim about overthinking that the evidence does not
     actually support
 related:
-  - sessions/03-the-reveal
-  - 03-the-empty-slot
+  - sessions/02-the-reveal
+  - 05-the-empty-slot
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

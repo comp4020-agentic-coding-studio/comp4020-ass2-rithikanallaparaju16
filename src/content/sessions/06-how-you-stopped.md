@@ -4,8 +4,8 @@ description:
   The other half of the reveal — the funny, undignified and occasionally
   brilliant things that actually got you out of a spiral, collected into
   something the room can steal from.
-week: 7
-date: 2027-04-05
+week: 6
+date: 2027-03-29
 teachers:
   - idris-fenn
   - marisol-quaye
@@ -15,14 +15,14 @@ spec:
   - you leave with at least one technique from someone else that you intend to
     try
 related:
-  - 03-the-reveal
-  - 06-aim-it-at-the-good
+  - 02-the-reveal
+  - 07-aim-it-at-the-good
   - assessments/the-audit
 ---
 
 ## Before the session
 
-[The reveal](/sessions/03-the-reveal/) collected the spirals. This one
+[The reveal](/sessions/02-the-reveal/) collected the spirals. This one
 collects the exits.
 
 Come with something that actually stopped one — not the thing you think should
@@ -52,7 +52,7 @@ categories to start from, which you should argue with:
   worst-case, naming the spiral out loud
 
 Round three: pair up, and each of you picks one technique from someone else's
-list to actually try before the next studio. Not the one you liked best — the
+list to actually try before the next crit. Not the one you liked best — the
 one you would never have thought of.
 
 ## The bit worth noticing
@@ -70,6 +70,6 @@ the argument to have with the time remaining.
 
 ## Afterwards
 
-Report back next studio on the technique you borrowed, in one sentence,
+Report back next crit on the technique you borrowed, in one sentence,
 including if it did nothing. A technique that failed on you is more useful to
 the room than a third person confirming that timers work.

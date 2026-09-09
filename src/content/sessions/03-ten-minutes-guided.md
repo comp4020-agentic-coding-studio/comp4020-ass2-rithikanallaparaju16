@@ -16,7 +16,7 @@ spec:
     specifically, and how big the effect is
 related:
   - lectures/01-not-that-serious
-  - 04-the-sandwich
+  - 05-the-sandwich
 ---
 
 ## Why this is in an overthinking course
@@ -24,7 +24,7 @@ related:
 Not for general wellbeing, and not because it is good for you in the way
 vegetables are. It is here because it is the one practice in this course with
 evidence pointing at **rumination specifically** — the exact thing the other
-studios have you catching in the act.
+crits have you catching in the act.
 
 Jain and colleagues (2007) ran a randomised trial and found mindfulness
 meditation reduced rumination more than relaxation training did, which is the

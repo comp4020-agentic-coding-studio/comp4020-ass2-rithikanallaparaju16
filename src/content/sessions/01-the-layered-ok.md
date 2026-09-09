@@ -1,10 +1,10 @@
 ---
 title: The layered "OK"
 description:
-  The opening studio — the group overanalyses a two-letter reply until it runs
+  The opening crit — the group overanalyses a two-letter reply until it runs
   out of road, then works out where it could have stopped.
-week: 2
-date: 2027-03-01
+week: 1
+date: 2027-02-22
 teachers:
   - marisol-quaye
 spec:
@@ -12,7 +12,7 @@ spec:
     about the message and started being about the reader
   - you have said, out loud, one real message you have overanalysed
 related:
-  - 03-the-reveal
+  - 02-the-reveal
   - lectures/01-not-that-serious
 ---
 

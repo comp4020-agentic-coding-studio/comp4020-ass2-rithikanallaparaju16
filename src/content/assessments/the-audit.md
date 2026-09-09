@@ -2,9 +2,9 @@
 title: The overthinking audit
 description:
   A short log of moments you noticed yourself overthinking across the
-  semester, with one unpacked properly using the studios' own tools
-week: 10
-due: 2027-04-26T12:00:00+10:00
+  semester, with one unpacked properly using the crits' own tools
+week: 6
+due: 2027-04-01T12:00:00+11:00
 weight: 35
 marking:
   mode: holistic
@@ -27,12 +27,16 @@ related:
 
 > Catch yourself doing it, and say honestly where you could have stopped.
 
-The studios up to this point gave you the tools: naming the layer past
-useful, guessing-then-revealing the gap between the story and the outcome,
-whatever you borrowed from someone else in
-[How you stopped](/sessions/05-how-you-stopped/), and running the same machine
-on a good outcome instead of a bad one. This assessment asks you to turn those
-tools on your own week, not on an exercise.
+The first six weeks gave you the tools: naming the layer past useful,
+guessing-then-revealing the gap between the story and the outcome, an
+undemanding slot built on purpose, and whatever you borrowed from someone else
+in [How you stopped](/sessions/06-how-you-stopped/). This assessment asks you
+to turn those tools on your own week, not on an exercise.
+
+**Why it is due in week 6.** Because week 6 is quiet, and week 11 isn't. This
+is the smaller of two assessments and it lands while you can still think
+straight; see [Assessment](/assessments/) for the whole argument about when
+things are due.
 
 The log does not need drama. The moments that teach the most are often the
 smallest — the ones where, in hindsight, you can see exactly where more

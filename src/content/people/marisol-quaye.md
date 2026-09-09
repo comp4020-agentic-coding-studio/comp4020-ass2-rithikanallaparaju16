@@ -1,18 +1,18 @@
 ---
 title: Marisol Quaye
 description:
-  The founding convenor, who designed the studios, moved the lectures
+  The founding convenor, who designed the crits, moved the lectures
   outdoors, and picked a two-assessment shape over anything weekly.
 affiliation: Slop University School of Invented Disciplines
 role: convenor
 email: marisol.quaye@slop.university
-contact: Email for course-level questions; save feedback on your own thinking for the studio itself.
+contact: Email for course-level questions; save feedback on your own thinking for the crit itself.
 photo: ./marisol-quaye.avif
 photoAlt: A stylised portrait of a person in three-quarter view, flat gold and black shapes on warm cream, in a two-ink risograph print
 ---
 
 Designed "The layered 'OK'" and "Aim it at the good," gives the week 1 and
-week 5 lectures, and is responsible for the two decisions students ask about
+week 2 lectures, and is responsible for the two decisions students ask about
 most: that the lectures happen outdoors, and that grading is a short audit
 plus one open-ended capstone rather than anything weekly. Weekly grading, on
 this material, tends to teach the opposite of the course.

@@ -4,8 +4,8 @@ description:
   Why a spiral repeats — the research on undemanding tasks and attention
   residue, and the course's central claim that a loop keeps re-running because
   it never gets the conditions to finish
-week: 9
-date: 2027-04-19
+week: 5
+date: 2027-03-22
 teachers:
   - idris-fenn
 spec:
@@ -14,15 +14,15 @@ spec:
   - you can state the course's account of why a spiral repeats, and say which
     part of it is evidence and which part is inference
 related:
-  - sessions/04-the-sandwich
+  - sessions/05-the-sandwich
   - 02-the-spiral
-  - 04-the-blank-that-isnt
+  - 06-the-blank-that-isnt
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the
 [ten-minute detox](/lectures/01-not-that-serious/).
 
-Week 5 described the spiral: repetitive, self-focused, feels like work,
+Week 2 described the spiral: repetitive, self-focused, feels like work,
 resolves nothing. It did not explain the most annoying thing about it, which
 is the *repetition*. Why does the same thought come back at 2am having made no
 progress since 11pm?
@@ -64,7 +64,7 @@ shower.
 
 The second is that this is one paradigm with one task, and the mind-wandering
 literature has a large asterisk on it: only constructive mind-wandering looks
-like this. Ruminative mind-wandering — the week 5 material — tracks with
+like this. Ruminative mind-wandering — the week 2 material — tracks with
 anxiety and low mood, not with creative incubation. The same idle mind does
 both. Nothing about an empty ten minutes guarantees you the good one.
 
@@ -102,10 +102,10 @@ you think too much. It is that the thinking never gets to *complete*, so it
 re-runs — and every strategy that keeps your attention fully occupied is
 therefore not a break from the spiral but a way of preserving it.
 
-That is also why the two studios that look least like this course belong in
-it. [The sandwich](/sessions/04-the-sandwich/) is an undemanding task with
+That is also why the two crits that look least like this course belong in
+it. [The sandwich](/sessions/05-the-sandwich/) is an undemanding task with
 nothing else running — the incubation condition, built on purpose. The
-[ten minutes](/sessions/02-ten-minutes-guided/) are the same slot, protected
+[ten minutes](/sessions/03-ten-minutes-guided/) are the same slot, protected
 by being scheduled. Neither is a wellness gesture; both are attempts to
 manufacture the condition under which a loop can close.
 

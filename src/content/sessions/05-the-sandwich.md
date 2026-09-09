@@ -4,8 +4,8 @@ description:
   Building an incubation slot on purpose — everyone makes and eats a sandwich
   in silence, with nothing else running, to find out what a mind does when
   you finally give it nothing.
-week: 6
-date: 2027-03-29
+week: 5
+date: 2027-03-22
 teachers:
   - idris-fenn
 spec:
@@ -14,8 +14,8 @@ spec:
   - you can say what your thinking did with the empty slot — whether it
     settled something, spiralled, or neither
 related:
-  - lectures/03-the-empty-slot
-  - 05-how-you-stopped
+  - lectures/05-the-empty-slot
+  - 06-how-you-stopped
 ---
 
 ## Why a sandwich is on the syllabus
@@ -23,7 +23,7 @@ related:
 Because it is the most precise instrument we have for the thing this course
 is about.
 
-The claim, argued properly in [week 9](/lectures/03-the-empty-slot/), is that
+The claim, argued properly in [week 5](/lectures/05-the-empty-slot/), is that
 a spiral repeats because it never gets the conditions under which thinking
 finishes — and that those conditions are surprisingly specific: an easy,
 automatic task that occupies your hands and leaves your attention free.
@@ -65,7 +65,7 @@ That is the interesting part and it is not a sign you are doing it wrong.
 - Where did your thinking actually go? Did anything resolve itself without
   you working on it — and if so, what had you been carrying?
 - Did anyone's spiral get *louder* in the silence? That is the strongest
-  objection to this whole studio and we should hear it.
+  objection to this whole crit and we should hear it.
 - When did your attention leave, where did it go, and did it come back?
 - Was the silence the hard part, or was it the not-multitasking?
 
@@ -78,8 +78,8 @@ flagging small samples and mixed results, which is the honest summary rather
 than the enthusiastic one.
 
 Nobody, as far as we can tell, has run a controlled trial on making a sandwich
-in silence. What this studio is doing is applying the mechanism from that
-literature and from [the empty slot](/lectures/03-the-empty-slot/) — an
+in silence. What this crit is doing is applying the mechanism from that
+literature and from [the empty slot](/lectures/05-the-empty-slot/) — an
 undemanding task with your attention left free — to the most ordinary thing we
 could think of. That is an extrapolation, not a proven intervention, and you
 should hold it that way.
@@ -93,6 +93,6 @@ Nothing to submit. Optional, and worth doing: one meal this week with nothing
 else running, and a single sentence about what turned up. That sentence is
 audit material.
 
-Keep whatever happened today in mind for [week 10](/lectures/04-the-blank-that-isnt/),
+Keep whatever happened today in mind for [week 6](/lectures/06-the-blank-that-isnt/),
 which looks at what usually occupies this slot instead — and at why filling it
 with a phone feels like relief from a spiral while doing the opposite.

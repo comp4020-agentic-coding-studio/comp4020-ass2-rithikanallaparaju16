@@ -25,14 +25,14 @@ is nowhere to wait.
 
 ## The first ten minutes
 
-Every lecture and every studio in this course opens the same way: ten minutes
+Every lecture and every crit in this course opens the same way: ten minutes
 of guided attention, no phones, no talking, no outcome. We call it the detox,
 which is a slightly silly name for sitting still, and the name is deliberate —
 if it had a solemn name you would take it too seriously, which is the one
 thing this course is against.
 
 You will learn the format properly in week 3, when a meditation teacher runs
-[Ten minutes, guided](/sessions/02-ten-minutes-guided/) and we stop
+[Ten minutes, guided](/sessions/03-ten-minutes-guided/) and we stop
 improvising. Until then it is: sit, breathe, notice, stop.
 
 The evidence here is real but modest, and it is worth being precise about,

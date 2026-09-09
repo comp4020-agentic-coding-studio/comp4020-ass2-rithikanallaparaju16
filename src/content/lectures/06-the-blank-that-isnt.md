@@ -3,18 +3,18 @@ title: The blank that isn't
 description:
   Doomscrolling, and the course's central suspicion — that the thing which
   feels like it empties your head is the thing that keeps the loop running
-week: 10
-date: 2027-04-26
+week: 6
+date: 2027-03-29
 teachers:
   - idris-fenn
 spec:
   - you can state what the doomscrolling research does and does not establish,
     including which direction the causation runs
   - you can say why a scroll fails as an incubation slot on the account given
-    in week 9
+    in week 5
 related:
-  - 03-the-empty-slot
-  - sessions/07-when-it-helps
+  - 05-the-empty-slot
+  - sessions/11-when-it-helps
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the
@@ -29,7 +29,7 @@ The suspicion this lecture is built on is that the blank is not an
 improvement, and that reaching for it is how a loop stays open for three days
 instead of closing in twenty minutes.
 
-Week 9 argued that thinking finishes itself in quiet, undemanding slots. This
+Week 5 argued that thinking finishes itself in quiet, undemanding slots. This
 lecture is about the thing that now occupies those slots, and it is the last
 piece of the course's argument.
 
@@ -89,7 +89,7 @@ felt worse for reading them.
 Here is the argument, and the parts of it that are mine rather than anyone's
 data are marked.
 
-The week 9 finding was specific: incubation happened during an **undemanding**
+The week 5 finding was specific: incubation happened during an **undemanding**
 task, and did not happen during a demanding one, during rest, or during no
 break. A scroll is not undemanding. It is a stream of novel, emotionally
 loaded, attention-capturing material — much closer to the demanding condition
@@ -103,7 +103,7 @@ it won't.
 And the blank? The blank is what a fully occupied attention feels like from
 the inside. Nothing has been processed. The loop has been *paused*, which
 feels like relief and is why we keep doing it, and it is waiting exactly where
-you left it. Leroy's attention residue, from week 9, predicts precisely that:
+you left it. Leroy's attention residue, from week 5, predicts precisely that:
 you left an unresolved thing to go and do something else, and unresolved is
 the condition where residue is worst.
 
@@ -147,7 +147,7 @@ The honest part, and it cuts against the lecture's own thesis.
 - If anxious people scroll more *and* scrolling makes it worse, you get a
   loop that needs no external cause. How would you tell that apart from the
   simple story in either direction?
-- Every technique from [How you stopped](/sessions/05-how-you-stopped/) that
+- Every technique from [How you stopped](/sessions/06-how-you-stopped/) that
   worked involved *ending* something — a timer, sending the message, going to
   sleep. Scrolling ends nothing. Is that the whole explanation?
 - Given a 0.4% variance figure, is any of this worth a lecture? Make the case

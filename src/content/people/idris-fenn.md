@@ -12,7 +12,8 @@ photoAlt: A stylised portrait of a person facing the viewer, flat gold and black
 ---
 
 Runs "The reveal," "The sandwich," "How you stopped" and "When it helps,"
-gives the week 9 lecture on incubation, and marks both assessments. Prefers
+gives the week 9 and week 10 lectures on incubation and doomscrolling, and
+marks both assessments. Prefers
 questions asked in the room where a studio just happened over questions asked
 by email a week later — the second kind has usually lost the detail that made
 it worth asking.

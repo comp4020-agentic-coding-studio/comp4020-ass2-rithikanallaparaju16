@@ -1,9 +1,9 @@
 ---
 title: The sandwich
 description:
-  Everyone makes and eats a sandwich in silence, with nothing else happening —
-  no music, no phone, no conversation — and then we talk about what that was
-  like.
+  Building an incubation slot on purpose — everyone makes and eats a sandwich
+  in silence, with nothing else running, to find out what a mind does when
+  you finally give it nothing.
 week: 6
 date: 2027-03-29
 teachers:
@@ -11,12 +11,28 @@ teachers:
 spec:
   - you made and ate something with no second input running, and stayed with
     it
-  - you can name one preference or pattern of your own that you noticed only
-    because there was nothing else to notice
+  - you can say what your thinking did with the empty slot — whether it
+    settled something, spiralled, or neither
 related:
   - lectures/03-the-empty-slot
   - 05-how-you-stopped
 ---
+
+## Why a sandwich is on the syllabus
+
+Because it is the most precise instrument we have for the thing this course
+is about.
+
+The claim, argued properly in [week 9](/lectures/03-the-empty-slot/), is that
+a spiral repeats because it never gets the conditions under which thinking
+finishes — and that those conditions are surprisingly specific: an easy,
+automatic task that occupies your hands and leaves your attention free.
+Making a sandwich is that, exactly. So today we build the condition
+deliberately, in a room full of people, and watch what happens.
+
+Two outcomes are interesting and you should be ready for either. Your
+thinking might settle something. Or the silence might hand your spiral an open
+microphone, which is data of a different kind and worth just as much.
 
 ## Before the session
 
@@ -46,8 +62,10 @@ That is the interesting part and it is not a sign you are doing it wrong.
 ## Then, the discussion
 
 - What did you reach for that wasn't there?
-- What did you learn about your own preferences that you would have said you
-  already knew?
+- Where did your thinking actually go? Did anything resolve itself without
+  you working on it — and if so, what had you been carrying?
+- Did anyone's spiral get *louder* in the silence? That is the strongest
+  objection to this whole studio and we should hear it.
 - When did your attention leave, where did it go, and did it come back?
 - Was the silence the hard part, or was it the not-multitasking?
 
@@ -74,3 +92,7 @@ day. Whatever you find out here, you can go and check tomorrow.
 Nothing to submit. Optional, and worth doing: one meal this week with nothing
 else running, and a single sentence about what turned up. That sentence is
 audit material.
+
+Keep whatever happened today in mind for [week 10](/lectures/04-the-blank-that-isnt/),
+which looks at what usually occupies this slot instead — and at why filling it
+with a phone feels like relief from a spiral while doing the opposite.

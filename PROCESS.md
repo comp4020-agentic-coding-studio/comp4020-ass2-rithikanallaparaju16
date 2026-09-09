@@ -1,22 +1,33 @@
 # Process overview
 
-<!-- TEMPLATE: this file is a shape to fill in, not a form. Replace everything
-     in it with your own overview, and delete this comment — `pnpm
-     check:evidence` will remind you if it's still here. -->
-
-Written by you, for a reader: how you got from the brief to the harness and
-agentic workflow behind this submission. Markers read this file and follow its
-citations; they don't trawl the repo for evidence you didn't point at.
-
-This file is the shape; the course site's
-[assessment page](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#what-you-submit)
-is the requirement, and its
-[word counts](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#word-counts)
-cover every deliverable.
-
 ## What I built
 
-One paragraph: the thing, and the idea behind it.
+<!-- MINE TO REWRITE: the draft below is accurate but it isn't in my voice. -->
+
+**SLOP6676 Advanced Overthinking** — a course site for a fictional
+postgraduate course about noticing when you are overthinking and choosing, on
+purpose, whether to keep going.
+
+The idea it ended up arguing is narrower than the one I started with. Most
+advice about overthinking tells you to think less. This course claims the
+problem is that a spiral *repeats*, and that it repeats because the thinking
+never gets the conditions under which it would finish — conditions the
+research says are oddly specific: an easy, automatic task with your attention
+left free. That single claim is what turned a set of activities into a course.
+It is also why the site is shaped the way it is: four outdoor lectures carry
+the argument and the evidence, seven studios build the conditions or catch the
+loop in the act, and every class opens with ten minutes of nothing.
+
+The rule I care most about is that the course is fictional and the science in
+it is not. Every claim on the site names a real author and year; the course's
+own central claim is labelled a hunch, because that is what it is.
+
+## What I would do differently
+
+<!-- MINE TO WRITE. Candidates, from the log below: letting the content drift
+     off-topic for a whole commit before catching it; the fact that the
+     *name* was what caught it; deciding to hold the agent to a
+     no-invented-facts rule and what that cost. -->
 
 ## How I got here
 
@@ -112,6 +123,53 @@ instead, which the theme already styles.
 Verified with `pnpm check` (22 pages, no accessibility violations, no broken
 links, 16 graph nodes / 22 edges, spec test passing) and headless-browser
 screenshots of the new lecture pages.
+
+Then the drift got caught, and not by me:
+
+> add how doomscrolling only incraesed all this, we think if we are spiralling
+> over sumn and we doom scroll our mind goes balnk and its better but it sthe
+> opposite, get scientific reasech and talk ab this. also, do you think the
+> name is apt now seeing the path we are choosing now? do you have any name
+> suggestions? also make my reflections file so i can add things.
+
+> i mean we are not talking about overthinking anymore, thats my concern
+
+This is the turn of the project worth writing about properly. I asked whether
+the course name still fit, and the agent initially treated that as a naming
+question and offered alternatives. It wasn't. The real problem was that four
+of the ten content pages added in the previous commit — meditation, the silent
+sandwich, the incubation lecture, and half the opening lecture — had stopped
+being about overthinking at all. They were about attention and silence, sitting
+next to the subject rather than arguing their way back to it. The agent had
+even labelled the connective claim as an untested inference on the page, which
+was honest and also meant the course's own spine was marked speculative.
+
+The fix was not a rename. It was giving those pages an argument: that a spiral
+repeats because the thinking never gets to finish, which makes silence and
+incubation *directly* about overthinking rather than adjacent to it. The name
+stayed, on the grounds that it is the constraint that caught the drift — a
+broader title would have let all four pages quietly pass.
+
+[`e18ce93`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/e18ce93) —
+added the doomscrolling lecture ("The blank that isn't"), rewrote the
+incubation lecture around the repetition claim, gave the sandwich and
+meditation studios opening sections stating why they are in an overthinking
+course, and fixed a course description that still claimed sessions had
+replaced lectures.
+
+The research pass behind that commit turned up one finding that cuts against
+the prompt that requested it, and it went on the page rather than being quietly
+dropped. The claim "doomscrolling has made overthinking worse" is not
+supported: the causal direction is unresolved, anxious people plausibly scroll
+more, and Orben and Przybylski (2019) put technology use at around 0.4% of
+variance in adolescent wellbeing. What *is* well supported is stranger and
+more useful — Kang and Kurtzberg (2019) held break activity and duration
+constant and found that people who took their break on a phone performed about
+as badly as people who got no break at all. So the lecture argues that the
+break isn't a break, and explicitly declines to argue that phones caused any
+of this. The "mind goes blank" phenomenology, which is the thing the prompt
+described, has no research behind it at all, and the lecture hands it to
+students as the best open question in the course.
 
 ## Before you ship
 

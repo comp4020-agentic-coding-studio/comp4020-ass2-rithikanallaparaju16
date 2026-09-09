@@ -49,9 +49,9 @@ export const courseMeta = slopCourseMetaSchema.parse({
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "Advanced Overthinking teaches you to notice the moment you could have " +
-    "stopped, and choose on purpose whether to keep going. Discussion-driven " +
-    "sessions replace lectures: you practise catching the spiral, then learn " +
-    "to aim the same over-analysis at what could go right.",
+    "Why does a spiral repeat? This course argues it is because the thinking " +
+    "never gets to finish, and builds the conditions where it can — outdoors, " +
+    "in silence, and ten minutes at a time. You practise catching the loop, " +
+    "then learn to aim the same over-analysis at what could go right.",
   tags: ["metacognition", "discussion-based", "decision-making"],
 }) satisfies CourseMetaInput;

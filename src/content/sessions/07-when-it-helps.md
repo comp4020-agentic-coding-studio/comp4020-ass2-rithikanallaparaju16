@@ -16,6 +16,7 @@ spec:
     thread, a meeting, a group chat — than it does alone
 related:
   - assessments/design-your-own
+  - lectures/02-the-spiral
 ---
 
 ## Before the session

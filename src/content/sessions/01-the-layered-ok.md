@@ -3,8 +3,8 @@ title: The layered "OK"
 description:
   The opening studio — the group overanalyses a two-letter reply until it runs
   out of road, then works out where it could have stopped.
-week: 1
-date: 2027-02-22
+week: 2
+date: 2027-03-01
 teachers:
   - marisol-quaye
 spec:
@@ -12,7 +12,8 @@ spec:
     about the message and started being about the reader
   - you have said, out loud, one real message you have overanalysed
 related:
-  - 02-the-reveal
+  - 03-the-reveal
+  - lectures/01-not-that-serious
 ---
 
 ## Before the session
@@ -22,6 +23,9 @@ message that took you longer to read than to write. Nothing else to prepare:
 there is no reading for this one.
 
 ## In the session
+
+After the [ten-minute detox](/lectures/01-not-that-serious/), which every
+class opens with.
 
 Someone puts a plain "OK" (no punctuation, no emoji) on the screen, sent in
 response to something ordinary. The group reads it aloud, then takes it

@@ -28,10 +28,32 @@ spec:
 
 > Design the studio this course didn't have time to run.
 
-Pick a flavour of overthinking the semester's four studios did not cover —
-money, relationships, work decisions, a hobby, something specific to your own
-life — and design an activity for it in the same shape: a provocation,
-something people do together, and a discussion with no scripted answer.
+Pick a flavour of overthinking the semester's studios did not cover — money,
+relationships, work decisions, a hobby, something specific to your own life —
+and design an activity for it in the same shape: a provocation, something
+people do together, and a discussion with no scripted answer.
+
+If you borrow a mechanism from the course, say which and say what you changed.
+An honest adaptation of [the sandwich](/sessions/04-the-sandwich/) to a
+different ordinary task is a stronger submission than an original idea that
+would not survive contact with a room.
+
+## The crit day
+
+The capstone is presented at a crit in the final week, and the crit opens the
+way the course has opened every class since week 3 — except that this time
+everyone eats together, in silence, for the first twenty minutes. No phones,
+no slides up, no talking. Bring lunch or we will feed you badly.
+
+It is the sandwich studio at full scale, and it is deliberately the last thing
+the course does before you present: twenty quiet minutes with an undemanding
+task is, on the evidence in
+[the empty slot](/lectures/03-the-empty-slot/), roughly the condition under
+which people's thinking finishes itself. Whether it helps your presentation is
+an experiment with a sample size of one class, and we will ask you afterwards.
+
+The pass rule applies. Eat elsewhere and come back at twenty past if you would
+rather.
 
 ## What you submit
 

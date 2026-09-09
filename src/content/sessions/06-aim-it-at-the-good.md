@@ -12,7 +12,7 @@ spec:
     earlier studios gave to worst-case ones
   - you can say what changed, or did not, about how it felt to do it
 related:
-  - 04-when-it-helps
+  - 07-when-it-helps
   - assessments/the-audit
 ---
 

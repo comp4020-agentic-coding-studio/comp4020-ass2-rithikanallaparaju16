@@ -44,9 +44,33 @@ anyone. So:
 - Every activity that involves sharing has an explicit, in-writing opt-out.
   Passing is a normal move, not a failure, and never has to be explained.
 - Nobody is graded on disclosure. Assessments mark noticing and reasoning, not
-  how much someone was willing to say out loud.
+  how much someone was willing to say out loud. **Participation marks measure
+  turning up and doing the activity — never speaking volume.** Talking more
+  earns nothing extra; a student who passes on every share can still score
+  full marks. In a course about anxiety, a mark for talking would punish
+  exactly the people it is for.
+- Attendance can be required and marked, but it is designed for people whose
+  bodies and lives don't cooperate: absences are dropped rather than excused,
+  no explanation is asked for, and no single missed week is worth anything.
 - No page implies the course is therapy or a substitute for it. Where it's
   near the line, point at real support instead of improvising.
+
+## Culture
+
+The techniques in this course come from several traditions, and most of the
+best-known ones came from outside the West before being renamed.
+
+- **Name the origin, accurately.** Say where a practice comes from and who
+  developed it. Where a Western therapy adapted an older practice, say that
+  too rather than presenting the adaptation as the source.
+- **Verify provenance before describing a practice.** Getting a tradition's
+  history wrong is worse than leaving it out. Check it like any other claim.
+- **No ancient-wisdom framing.** Practices are described as things people
+  actually do, with the evidence stated at its real strength, including where
+  it is thin. Nothing gets a pass on evidence for being old or foreign.
+- **Avoid the wellness-industry inventions** — practices marketed as
+  traditional that aren't, or that have been flattened into something the
+  source culture wouldn't recognise.
 
 ## Working practice
 

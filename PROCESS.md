@@ -14,20 +14,66 @@ problem is that a spiral *repeats*, and that it repeats because the thinking
 never gets the conditions under which it would finish — conditions the
 research says are oddly specific: an easy, automatic task with your attention
 left free. That single claim is what turned a set of activities into a course.
-It is also why the site is shaped the way it is: four outdoor lectures carry
-the argument and the evidence, seven studios build the conditions or catch the
-loop in the act, and every class opens with ten minutes of nothing.
+It is also why the site is shaped the way it is: a lecture and a crit every
+week, the lectures outdoors, and every class opening with ten minutes of
+nothing.
 
 The rule I care most about is that the course is fictional and the science in
 it is not. Every claim on the site names a real author and year; the course's
 own central claim is labelled a hunch, because that is what it is.
+
+## Why the course is shaped this way
+
+<!-- MINE TO REWRITE: these are my reasons, drafted from what I said as the
+     course took shape. The arguments are mine; the wording needs to be too. -->
+
+**Overthinking is universal and almost never taught.** Everyone has re-read a
+two-word reply too many times, or shelved a decision because thinking about it
+more felt like progress. It costs people sleep, decisions and years, and no
+degree anywhere treats it as a subject. It gets handled as a personality quirk
+or as a clinical problem, with nothing in between — and the space in between
+is where nearly everybody actually lives. That gap is the reason this course
+exists.
+
+**Naming it was never going to be enough.** The course started out as a way to
+*notice* overthinking. That is where most writing on the subject stops, and it
+is the half that changes nothing on its own — you end up better at watching
+yourself spiral. So the course moved from diagnosis to pivot: what you
+actually do instead. Catch the loop, then aim the same machinery somewhere
+useful, build the conditions where thinking finishes, and know which of the
+things you reach for under stress are worth reaching for. Every crit ends with
+something you can do, not something you now understand.
+
+**A lecture and a crit every week, deliberately.** An earlier version of the
+schedule alternated — a lecture some weeks, a crit others. I changed it,
+because these are techniques, and techniques need practice at a rhythm rather
+than exposure once a fortnight. Twice a week, every week, is what makes a
+habit instead of a memory. The same reasoning gave every single class the same
+ten-minute opening: the repetition *is* the teaching.
+
+**The real target is quality of life.** Not marks, and not a body of
+knowledge. The course is trying to hand people something small enough to keep
+using after the semester ends, and simple enough to explain to someone else —
+the kind of thing that gets passed on rather than filed. Most people already
+know the one thing about themselves they would like to change; what they lack
+is a slightly easier way in. If a student is still using one technique from
+this course in five years, or has taught it to somebody, the course worked.
+Nothing on the assessment page measures that, which is a limitation I am aware
+of and have not solved.
+
+**And the assessment calendar is part of the argument.** A course about not
+adding to your mental load has no business adding to it. Both major
+assessments land in the quiet middle of semester and nothing at all is due
+after week 9, so that the weeks when everything else is due are weeks this
+course spends being useful rather than demanding.
 
 ## What I would do differently
 
 <!-- MINE TO WRITE. Candidates, from the log below: letting the content drift
      off-topic for a whole commit before catching it; the fact that the
      *name* was what caught it; deciding to hold the agent to a
-     no-invented-facts rule and what that cost. -->
+     no-invented-facts rule and what that cost; making attendance compulsory
+     in a course whose central promise is that you can always pass. -->
 
 ## How I got here
 

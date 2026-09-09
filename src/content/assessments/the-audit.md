@@ -5,7 +5,7 @@ description:
   semester, with one unpacked properly using the crits' own tools
 week: 6
 due: 2027-04-01T12:00:00+11:00
-weight: 35
+weight: 30
 marking:
   mode: holistic
   description:

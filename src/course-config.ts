@@ -49,9 +49,9 @@ export const courseMeta = slopCourseMetaSchema.parse({
   startDate: "2027-02-22",
   endDate: "2027-06-21",
   description:
-    "Overthinking is not too much thinking. It is thinking that never gets to " +
-    "finish, so it starts again. This course builds the conditions where a " +
-    "loop can close — outdoors, in silence, ten minutes at a time — then aims " +
-    "the same over-analysis at what could go right.",
-  tags: ["overthinking", "metacognition", "discussion-based"],
+    "Thinking that never gets to finish starts again. That is what a spiral " +
+    "is, and this course builds the conditions under which one can close: " +
+    "outdoors, in silence, ten minutes at a time. Then it aims the same " +
+    "unreasonable rigour at what could go right.",
+  tags: ["metacognition", "attention", "discussion-based"],
 }) satisfies CourseMetaInput;

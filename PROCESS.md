@@ -586,6 +586,71 @@ on People and, later, for a tutor teaching a cohort. The banner does both — th
 teacher carries the same closed-eyed smile as the three portrait cards below
 it, so the page reads as one set instead of two ideas.
 
+Then the artwork was replaced with a supplied set, and the cropping had to be
+solved properly:
+
+> now i added images using stitch, pls use those instead of the ones you
+> created […] i liked the lecture hall image you used before for the main page
+
+> also i mean the slop main page image that you rendered the first time, can
+> you use that? and please resize the images, use playwright take screen shots
+> and please let the images render properly. also add another page called
+> "topics" and add the topics that we created until now
+
+[`1645a50`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/1645a50)
+and
+[`4882ece`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/4882ece) —
+swapped in the Stitch illustration suite, fixed the hero cropping, redrew the
+homepage theatre, and added a Topics page.
+
+**Placement followed what each image shows** rather than what each page is
+called: the windblown tree with a bench under it to Lectures, the circle of
+five around a table to Crits, the lone figure at a desk to Assessment, the
+person explaining at a whiteboard to People, and the stacked journals under an
+arched window to Policies. All my own SVGs for those slots were deleted — the
+supplied set is better and it is a coherent suite.
+
+**Every alt text was rewritten**, which is the part that would have been easy
+to skip. The old ones described my drawings — an outdoor bench for Policies, a
+field at dusk for Assessment — so leaving them would have actively misled a
+screen reader while looking fine to everyone else.
+
+**The cropping problem was only solved once I went and looked at the file that
+worked.** The starter banner is still in git history, so I recovered it, and
+the answer was in its dimensions: 2560×1086, a 2.36:1 band, and it tolerated a
+wide crop because it is a repeating texture of seats. The supplied
+illustrations are 16:9 with a single subject each, so the theme's 20rem hero
+was cutting the bottom off all of them. Two fixes: pad each image to the
+starter's ratio by *replicating the edge columns* rather than filling flat, so
+the railings that run off the sides of the assessment image continue instead
+of stopping dead; and grow the hero with the viewport in `site.css`, coming
+back down below 640px where a tall box crops the sides away instead. Verified
+through Playwright at both marking viewports — about 66% of each artwork
+visible on desktop, 61% on phone, every subject intact.
+
+**On the lecture hall I had to say no twice, then find the third answer.** The
+request was to reuse the starter's banner, and I can't: `check:evidence`
+hashes that exact file, so shipping it under any filename would pass someone
+else's illustration off as ours and fail the check. Rather than keep refusing,
+I recovered it, looked at what made it good — the view straight down the
+central aisle, two banks of tiered seats, tall windows at the back — and drew
+that. The room is empty apart from one seat folded down on the aisle, which is
+the closest a lecture theatre gets to this course's opinion of lecture
+theatres.
+
+**Measuring caught something eyeballing had not.** With the glyphs hidden I
+sampled what sits behind each page title: the homepage's first line was
+landing on blank cream at 1.9:1 against white, which is illegible. Lifting the
+theatre and widening its tiers put seating behind the text and took the
+average to 9.25:1.
+
+**The Topics page came from the brief and turned out to be the most useful
+page on the site.** The lectures and crits are listed by week, which is the
+right order to do the course in and the wrong order to look anything up in.
+Topics groups the same material by subject — catching yourself, why a loop
+repeats, making room, aiming it, where the ideas come from — and ends with the
+weeks the cohort has not voted on yet.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

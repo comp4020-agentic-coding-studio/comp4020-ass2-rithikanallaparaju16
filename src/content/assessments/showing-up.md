@@ -21,6 +21,8 @@ spec:
   - nothing to submit; this accrues across the semester
 related:
   - the-log
+heroImage: /src/assets/images/art/asmt-showing-up.png
+heroImageAlt: "A speaker beside a whiteboard with three people in front of them, one seated and two standing — flat gold and black on cream"
 ---
 
 ## Why this is marked at all

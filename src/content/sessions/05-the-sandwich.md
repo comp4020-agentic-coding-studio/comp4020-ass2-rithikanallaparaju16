@@ -17,6 +17,8 @@ related:
   - lectures/05-the-empty-slot
   - 04-deliberately-slow
   - 06-how-you-stopped
+heroImage: /src/assets/images/art/crit-the-sandwich.png
+heroImageAlt: "A round table with people seated around it, one holding a bowl, seen close and cropped at the shoulders — flat gold and black on cream"
 ---
 
 ## Why a sandwich is on the syllabus

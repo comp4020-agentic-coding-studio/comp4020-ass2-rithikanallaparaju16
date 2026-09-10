@@ -23,6 +23,8 @@ spec:
 related:
   - the-log
   - sessions/06-how-you-stopped
+heroImage: /src/assets/images/art/asmt-anonymous-thread.png
+heroImageAlt: "Five people seated around a round table, one gesturing mid-sentence and another writing in a notebook — flat gold and black on cream"
 ---
 
 ## The brief

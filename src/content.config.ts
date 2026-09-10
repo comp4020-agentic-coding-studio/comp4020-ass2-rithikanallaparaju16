@@ -8,6 +8,18 @@ const courseNodeLoader = (dir: string) =>
   glob({ pattern: ["**/*.{md,mdx}", "!**/CLAUDE.md"], base: `src/content/${dir}` });
 const teacherRefs = z.array(reference("people")).min(1);
 
+// Detail-page hero art. The path is a string rather than an `image()` helper
+// because the theme's ContentLayout resolves "/src/assets/..." strings through
+// its own glob, and that is the form its hero prop takes. The regex pins the
+// directory so a typo fails the build instead of warning at render time.
+const heroFields = {
+  heroImage: z
+    .string()
+    .regex(/^\/src\/assets\/images\/art\/[a-z0-9-]+\.png$/)
+    .optional(),
+  heroImageAlt: z.string().trim().min(1).optional(),
+};
+
 const weightedMarking = z
   .object({
     mode: z.literal("weighted"),
@@ -39,6 +51,7 @@ export const collections = {
         week: weekSchema,
         date: z.coerce.date(),
         teachers: teacherRefs.optional(),
+        ...heroFields,
       })
       .loose(),
   }),
@@ -51,6 +64,7 @@ export const collections = {
         due: z.coerce.date(),
         weight: z.coerce.number().positive().max(100),
         marking: z.discriminatedUnion("mode", [weightedMarking, holisticMarking]).optional(),
+        ...heroFields,
       })
       .loose(),
   }),
@@ -66,6 +80,7 @@ export const collections = {
           .string()
           .regex(/^\/decks\/[a-z0-9-]+\/$/)
           .optional(),
+        ...heroFields,
       })
       .loose(),
   }),

@@ -16,6 +16,8 @@ spec:
 related:
   - 04-borrowed-and-renamed
   - sessions/11-when-it-helps
+heroImage: /src/assets/images/art/lec-act-anyway.png
+heroImageAlt: "Three people in a room, one seated and gesturing, two standing and listening — flat gold and black on cream"
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

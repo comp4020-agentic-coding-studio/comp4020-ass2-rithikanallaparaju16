@@ -17,6 +17,8 @@ spec:
 related:
   - assessments/design-your-own
   - lectures/02-the-spiral
+heroImage: /src/assets/images/art/crit-when-it-helps.png
+heroImageAlt: "Stacked books and journals in front of a tall arched window looking out onto campus buildings — flat gold and black on cream"
 ---
 
 ## Before the session

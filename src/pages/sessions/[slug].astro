@@ -21,6 +21,8 @@ const { Content } = await render(session);
   title={`Week ${session.data.week} ${sessionLabels.singular}: ${session.data.title}`}
   description={session.data.description}
   {...siteConfig}
+  heroImage={session.data.heroImage}
+  heroImageAlt={session.data.heroImageAlt}
 >
   <p><strong>{formatCourseDate(session.data.date)}</strong></p>
   <Content />

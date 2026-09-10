@@ -18,6 +18,8 @@ related:
   - 02-the-reveal
   - 07-aim-it-at-the-good
   - assessments/the-log
+heroImage: /src/assets/images/art/crit-how-you-stopped.png
+heroImageAlt: "Three people talking, one gesturing mid-sentence and one taking notes — flat gold and black on cream"
 ---
 
 ## Before the session

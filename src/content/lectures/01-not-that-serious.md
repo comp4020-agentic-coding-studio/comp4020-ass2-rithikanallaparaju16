@@ -16,6 +16,8 @@ spec:
 related:
   - sessions/01-the-layered-ok
   - 02-the-spiral
+heroImage: /src/assets/images/art/lec-not-that-serious.png
+heroImageAlt: "A speaker at a whiteboard, one hand open mid-sentence, with three people seated and standing in front of them — flat gold and black on cream"
 ---
 
 **Where:** outdoors. The exact spot moves week to week and is posted on this

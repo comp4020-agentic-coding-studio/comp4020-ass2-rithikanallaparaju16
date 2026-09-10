@@ -14,6 +14,8 @@ spec:
 related:
   - 02-the-reveal
   - lectures/01-not-that-serious
+heroImage: /src/assets/images/art/crit-layered-ok.png
+heroImageAlt: "Three people close together in profile, one speaking and two listening — flat gold and black on cream"
 ---
 
 ## Before the session

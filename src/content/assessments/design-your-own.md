@@ -22,6 +22,8 @@ spec:
     format, rather than being told, is the right way to do it
   - a reflection on how it went if you ran it, or your best prediction of
     where it would snag if you didn't
+heroImage: /src/assets/images/art/asmt-design-your-own.png
+heroImageAlt: "A tree whose branches are made of open books, folders, magnifying glasses and coffee cups — flat gold and black on cream"
 ---
 
 ## The brief

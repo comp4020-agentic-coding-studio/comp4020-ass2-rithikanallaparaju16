@@ -16,6 +16,8 @@ spec:
 related:
   - sessions/02-the-reveal
   - 05-the-empty-slot
+heroImage: /src/assets/images/art/lec-the-spiral.png
+heroImageAlt: "Leaves blowing off a tree and dissolving into tight curling spirals, small outlined shapes and a question mark — flat gold and black on cream"
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

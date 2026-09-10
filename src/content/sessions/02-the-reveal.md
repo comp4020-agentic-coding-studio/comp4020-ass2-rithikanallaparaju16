@@ -15,6 +15,8 @@ spec:
 related:
   - 06-how-you-stopped
   - lectures/02-the-spiral
+heroImage: /src/assets/images/art/crit-the-reveal.png
+heroImageAlt: "Three people mid-conversation, one talking with an open hand while another writes in a notebook — flat gold and black on cream"
 ---
 
 ## Before the session

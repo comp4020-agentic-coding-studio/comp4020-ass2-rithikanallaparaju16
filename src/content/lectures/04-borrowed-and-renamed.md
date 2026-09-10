@@ -17,6 +17,8 @@ spec:
 related:
   - sessions/03-ten-minutes-guided
   - 08-act-anyway
+heroImage: /src/assets/images/art/lec-borrowed.png
+heroImageAlt: "Stacks of bound journals and books on a library trolley and table, seen edge-on — flat gold and black on cream"
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

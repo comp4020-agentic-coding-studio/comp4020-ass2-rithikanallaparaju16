@@ -14,6 +14,8 @@ spec:
 related:
   - 11-when-it-helps
   - assessments/the-log
+heroImage: /src/assets/images/art/crit-aim-at-the-good.png
+heroImageAlt: "The upper branches of a tree made of open books, framed pictures and small birds — flat gold and black on cream"
 ---
 
 ## Before the session

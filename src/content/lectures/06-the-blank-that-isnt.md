@@ -15,6 +15,8 @@ spec:
 related:
   - 05-the-empty-slot
   - sessions/11-when-it-helps
+heroImage: /src/assets/images/art/lec-blank-that-isnt.png
+heroImageAlt: "A person at a laptop on a bare desk, chin resting on one hand and a pen in the other — flat gold and black on cream"
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

@@ -16,6 +16,8 @@ spec:
 related:
   - 05-the-sandwich
   - lectures/05-the-empty-slot
+heroImage: /src/assets/images/art/crit-deliberately-slow.png
+heroImageAlt: "A person reading on a low stone wall and another sitting cross-legged on the ground, with curling lines and question marks drifting off to the right — flat gold and black on cream"
 ---
 
 ## Before the crit

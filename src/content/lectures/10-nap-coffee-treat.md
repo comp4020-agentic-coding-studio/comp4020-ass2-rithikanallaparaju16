@@ -16,6 +16,8 @@ spec:
 related:
   - 05-the-empty-slot
   - assessments/the-log
+heroImage: /src/assets/images/art/lec-nap-coffee.png
+heroImageAlt: "Part of a branching tree made of objects: coffee cups, an open book, a magnifying glass and a stack of papers — flat gold and black on cream"
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

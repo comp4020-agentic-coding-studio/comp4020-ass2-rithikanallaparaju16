@@ -17,6 +17,8 @@ related:
   - sessions/05-the-sandwich
   - 02-the-spiral
   - 06-the-blank-that-isnt
+heroImage: /src/assets/images/art/lec-empty-slot.png
+heroImageAlt: "A windblown tree at the left with two small figures on a bench beneath it, and most of the frame left as open ground — flat gold and black on cream"
 ---
 
 **Where:** outdoors, venue posted by the Friday before. Opens with the

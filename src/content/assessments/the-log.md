@@ -24,6 +24,8 @@ spec:
 related:
   - the-anonymous-thread
   - lectures/10-nap-coffee-treat
+heroImage: /src/assets/images/art/asmt-the-log.png
+heroImageAlt: "A person at a laptop writing by hand in a notebook, with a long empty railing running off to the right — flat gold and black on cream"
 ---
 
 ## The brief

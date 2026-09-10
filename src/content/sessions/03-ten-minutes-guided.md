@@ -18,6 +18,8 @@ related:
   - lectures/01-not-that-serious
   - lectures/04-borrowed-and-renamed
   - 05-the-sandwich
+heroImage: /src/assets/images/art/crit-ten-minutes.png
+heroImageAlt: "The end of a park bench and two people sitting on the ground facing away, under a tree — flat gold and black on cream"
 ---
 
 ## Why this is in an overthinking course

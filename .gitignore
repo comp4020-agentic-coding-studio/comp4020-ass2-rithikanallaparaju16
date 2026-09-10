@@ -26,3 +26,10 @@ mise.local.toml
 # your course API key, and this repo goes public when you ship. Your tracked
 # harness is CLAUDE.md (and any AGENTS.md), not this directory.
 .claude/
+
+# Working screenshots and the raw Stitch export. The illustrations that the
+# site actually uses are committed under src/assets/images/ and
+# src/content/people/; these are the scratch copies they came from.
+image.png
+image-*.png
+stitch_university_website_illustration_suite/

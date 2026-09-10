@@ -651,6 +651,36 @@ Topics groups the same material by subject — catching yourself, why a loop
 repeats, making room, aiming it, where the ideas come from — and ends with the
 weeks the cohort has not voted on yet.
 
+> create images for all the decks as well, whatever is created is good, for
+> the rest, all lectures, assignments etc. use the stitch images as base
+
+[`06cc15c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/06cc15c) —
+23 detail images, cut from the seven supplied illustrations.
+
+**The instruction was the interesting part.** "Use the stitch images as base"
+ruled out the thing I would otherwise have done, which is generate more art
+and end up with two visual languages on one site. Seven scenes had to cover
+19 detail pages and four decks, so each image is a different window onto one
+of them, planned as a table of crop fractions so that pages sharing a source
+get visibly different framing rather than the same picture twice.
+
+**I looked at the output before wiring any of it up.** The first pass put four
+windows on empty cream — technically a crop, visually a blank hero. A contact
+sheet of all 23 made that obvious in one glance, and the four were re-cut
+against a grid overlay of the sources.
+
+**The decks needed a different shape entirely.** Their image panel is 42% of a
+1280×720 canvas, so it is portrait, and `background-size: cover` would have
+thrown away most of a landscape crop. They also have to live under
+`src/decks/` — astromotion copies deck assets from there and nowhere else, so
+a `../assets/…` path resolves to a `/src/` URL that is never emitted and 404s
+without any build error. I only caught that by screenshotting the deck and
+finding the panel black.
+
+**The listing cards take the same images with an empty alt.** The card is one
+link whose text is already the title; a description on the image inside it
+would be announced twice.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

@@ -7,8 +7,8 @@ affiliation: Slop University School of Invented Disciplines
 role: convenor
 email: marisol.quaye@slop.university
 contact: Email for course-level questions; save feedback on your own thinking for the crit itself.
-photo: ./marisol-quaye.svg
-photoAlt: A stylised portrait of a person with closed eyes and a calm, closed smile, flat gold and near-black shapes on warm cream, in a two-ink risograph print
+photo: ./marisol-quaye.png
+photoAlt: An inked portrait of an older person in glasses, wearing a dark jacket over a gold shirt, against a panel of gold geometric pattern
 ---
 
 Designed "The layered 'OK'" and "Aim it at the good," gives the week 1 and

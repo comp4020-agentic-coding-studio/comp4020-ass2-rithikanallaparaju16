@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1810 768" width="1810" height="768" role="img">
+  <!-- Topics: loose threads entering from the left, crossing, and gathering
+       into bundles — a page that groups scattered material is hard to draw
+       any other way. Three bundles are tied off; the fourth runs off the
+       right edge untied, which is where the syllabus is still open.
+       Same palette and 1810x768 as the rest of the hero set. -->
+  <rect width="1810" height="768" fill="#f2eee3"/>
+
+  <!-- The threads. Each starts at a different height on the left, crosses the
+       middle, and converges on one of four gather points. -->
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#1a1613" stroke-width="9">
+      <path d="M-20 120C300 140 420 300 700 300"/>
+      <path d="M-20 300C260 320 440 306 700 302"/>
+      <path d="M-20 470C300 460 430 308 700 304"/>
+    </g>
+    <g stroke="#c9a24a" stroke-width="9">
+      <path d="M-20 200C320 210 450 470 760 470"/>
+      <path d="M-20 560C280 570 470 476 760 472"/>
+      <path d="M-20 690C340 680 460 478 760 474"/>
+    </g>
+    <!-- out of the first two bundles, on toward the next two -->
+    <g stroke="#1a1613" stroke-width="9">
+      <path d="M740 300C900 300 980 190 1180 190"/>
+      <path d="M740 306C900 306 990 198 1180 194"/>
+    </g>
+    <g stroke="#c9a24a" stroke-width="9">
+      <path d="M800 470C960 470 1040 600 1240 600"/>
+      <path d="M800 474C960 474 1050 606 1240 604"/>
+    </g>
+    <!-- the untied end, leaving the frame -->
+    <g stroke="#8a5c13" stroke-width="9">
+      <path d="M1220 192C1420 192 1520 300 1830 300"/>
+      <path d="M1220 602C1440 602 1560 500 1830 470"/>
+    </g>
+  </g>
+
+  <!-- Bundle ties: a flat band across the gathered threads. -->
+  <g>
+    <rect x="700" y="266" width="42" height="76" rx="10" fill="#1a1613"/>
+    <rect x="708" y="276" width="26" height="56" rx="6" fill="#d8ab4e"/>
+
+    <rect x="758" y="436" width="42" height="76" rx="10" fill="#1a1613"/>
+    <rect x="766" y="446" width="26" height="56" rx="6" fill="#d8ab4e"/>
+
+    <rect x="1178" y="158" width="42" height="76" rx="10" fill="#1a1613"/>
+    <rect x="1186" y="168" width="26" height="56" rx="6" fill="#d8ab4e"/>
+
+    <rect x="1238" y="566" width="42" height="76" rx="10" fill="#1a1613"/>
+    <rect x="1246" y="576" width="26" height="56" rx="6" fill="#d8ab4e"/>
+  </g>
+
+  <!-- One tie left open at the right: the band is drawn unclosed, a bracket
+       rather than a ring, so the last bundle is visibly not tied. -->
+  <path d="M1690 250c-26 0-26 26-26 50s0 50 26 50" fill="none" stroke="#8a5c13"
+        stroke-width="9" stroke-linecap="round"/>
+</svg>

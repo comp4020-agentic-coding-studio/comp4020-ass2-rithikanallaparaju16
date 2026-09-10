@@ -1,102 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1376 768" width="1376" height="768" role="img">
-  <!-- Homepage: a lecture theatre, drawn to sit with the rest of the
-       illustration suite — flat gold and near-black on warm cream, no
-       gradients, no outlines except where a shape needs separating.
-       Authored here rather than reusing the starter's lecture-theatre artwork,
-       which is hash-checked as template placeholder and would ship as
-       somebody else's work.
-       Sized 1376x768 to match the rest of the set so every hero crops alike.
-       One seat in the front row is empty and one figure has turned away from
-       the front, which is as close as a lecture theatre gets to this course's
-       actual opinion of lecture theatres. -->
-  <rect width="1376" height="768" fill="#f4eee2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1810 768" width="1810" height="768" role="img">
+  <!-- Homepage: a lecture theatre seen straight down the central aisle, two
+       banks of tiered seats receding toward tall windows at the back.
 
-  <!-- Everything is lifted 150px: the hero crops to the middle of this image
-       and the title's first line was landing on blank cream above the seats,
-       which measured 1.9:1 against white. Filling that band with seating and
-       silhouettes fixes the contrast without leaving the cream palette. -->
-  <g transform="translate(0 -150)">
+       This is an homage to the starter's banner rather than the starter's
+       banner. That file is hash-checked by `pnpm check:evidence` as template
+       placeholder, so shipping it — under any filename — would mean passing
+       somebody else's illustration off as our own. The composition, the
+       palette and the two-ink treatment follow it; every path here is drawn.
 
-  <!-- back wall: a projected rectangle, blank -->
-  <rect x="452" y="96" width="472" height="252" fill="#f9f5ec"/>
-  <rect x="452" y="96" width="472" height="252" fill="none" stroke="#1a1613" stroke-width="5"/>
-  <g stroke="#c9a24a" stroke-width="7" stroke-linecap="round" opacity="0.9">
-    <path d="M492 168h300M492 204h236M492 240h274M492 276h182"/>
-  </g>
-
-  <!-- No lectern: an earlier pass put one at the front and the rows, which are
-       drawn over the top of it, swallowed all but a corner. The blank screen
-       already says nobody is presenting.
-
-       Tiered rows, drawn back to front so each row overlaps the one behind.
-       Rows widen and drop as they come forward: the sweep is the whole reason
-       a lecture theatre is recognisable at a glance. -->
-  <g>
-    <!-- row 4, furthest back -->
-    <path d="M230 404h778c26 0 34 10 34 26v34H196v-34c0-16 8-26 34-26Z" fill="#b8892e"/>
-    <path d="M196 464h846v18H196Z" fill="#1a1613"/>
-    <!-- row 3 -->
-    <path d="M180 470h876c30 0 38 10 38 28v38H142v-38c0-18 8-28 38-28Z" fill="#c9a24a"/>
-    <path d="M142 536h970v20H142Z" fill="#1a1613"/>
-    <!-- row 2 -->
-    <path d="M164 542h954c34 0 44 12 44 32v44H120v-44c0-20 10-32 44-32Z" fill="#b8892e"/>
-    <path d="M120 618h1042v22H120Z" fill="#1a1613"/>
-    <!-- row 1, nearest -->
-    <path d="M90 626h1106c40 0 50 14 50 36v52H40v-52c0-22 10-36 50-36Z" fill="#c9a24a"/>
-    <path d="M40 714h1206v24H40Z" fill="#1a1613"/>
-  </g>
-
-  <!-- Seat divisions, cut as cream slots so the rows read as seats rather
-       than as benches. -->
-  <g stroke="#f4eee2" stroke-width="6">
-    <path d="M266 404v60M368 404v60M470 404v60M572 404v60M674 404v60M776 404v60M878 404v60"/>
-    <path d="M198 470v66M314 470v66M430 470v66M546 470v66M662 470v66M778 470v66M894 470v66M1010 470v66"/>
-    <path d="M252 542v76M382 542v76M512 542v76M642 542v76M772 542v76M902 542v76M1032 542v76"/>
-    <path d="M170 626v88M320 626v88M470 626v88M620 626v88M770 626v88M920 626v88M1070 626v88"/>
-  </g>
-
-  <!-- The audience: heads and shoulders above the seat backs. Flat black,
-       no faces — at this scale a face becomes a smudge. -->
-  <g fill="#1a1613">
-    <!-- back row -->
-    <g transform="translate(316 372)"><circle r="21"/><path d="M-31 40c0-17 14-30 31-30s31 13 31 30Z"/></g>
-    <g transform="translate(418 372)"><circle r="21"/><path d="M-31 40c0-17 14-30 31-30s31 13 31 30Z"/></g>
-    <g transform="translate(622 372)"><circle r="21"/><path d="M-31 40c0-17 14-30 31-30s31 13 31 30Z"/></g>
-    <g transform="translate(724 372)"><circle r="21"/><path d="M-31 40c0-17 14-30 31-30s31 13 31 30Z"/></g>
-    <g transform="translate(928 372)"><circle r="21"/><path d="M-31 40c0-17 14-30 31-30s31 13 31 30Z"/></g>
-    <!-- row 3 -->
-    <g transform="translate(256 434)"><circle r="23"/><path d="M-34 44c0-19 15-33 34-33s34 14 34 33Z"/></g>
-    <g transform="translate(372 434)"><circle r="23"/><path d="M-34 44c0-19 15-33 34-33s34 14 34 33Z"/></g>
-    <g transform="translate(488 434)"><circle r="23"/><path d="M-34 44c0-19 15-33 34-33s34 14 34 33Z"/></g>
-    <g transform="translate(720 434)"><circle r="23"/><path d="M-34 44c0-19 15-33 34-33s34 14 34 33Z"/></g>
-    <g transform="translate(836 434)"><circle r="23"/><path d="M-34 44c0-19 15-33 34-33s34 14 34 33Z"/></g>
-    <g transform="translate(952 434)"><circle r="23"/><path d="M-34 44c0-19 15-33 34-33s34 14 34 33Z"/></g>
-    <!-- row 2 -->
-    <g transform="translate(317 502)"><circle r="26"/><path d="M-38 50c0-21 17-37 38-37s38 16 38 37Z"/></g>
-    <g transform="translate(447 502)"><circle r="26"/><path d="M-38 50c0-21 17-37 38-37s38 16 38 37Z"/></g>
-    <g transform="translate(577 502)"><circle r="26"/><path d="M-38 50c0-21 17-37 38-37s38 16 38 37Z"/></g>
-    <g transform="translate(837 502)"><circle r="26"/><path d="M-38 50c0-21 17-37 38-37s38 16 38 37Z"/></g>
-    <g transform="translate(967 502)"><circle r="26"/><path d="M-38 50c0-21 17-37 38-37s38 16 38 37Z"/></g>
-    <!-- Front row. The seat at x=545 is left empty on purpose, and the figure
-         at 845 is turned to face the back of the room. -->
-    <g transform="translate(245 578)"><circle r="30"/><path d="M-44 58c0-24 20-43 44-43s44 19 44 43Z"/></g>
-    <g transform="translate(395 578)"><circle r="30"/><path d="M-44 58c0-24 20-43 44-43s44 19 44 43Z"/></g>
-    <g transform="translate(695 578)"><circle r="30"/><path d="M-44 58c0-24 20-43 44-43s44 19 44 43Z"/></g>
-    <!-- Turned away from the front. Done as a rotation of the ordinary
-         silhouette: hand-cutting the shoulders produced a wedge that read as
-         a rendering fault rather than as a person looking behind them. -->
-    <g transform="translate(845 578) rotate(16)">
-      <circle r="30"/><path d="M-44 58c0-24 20-43 44-43s44 19 44 43Z"/>
+       Sized 1810x768 to match the rest of the hero set after padding, which
+       is close to the ratio the starter used and crops cleanly in this
+       theme. -->
+  <defs>
+    <!-- One seat in three-quarter view, reused down each row and scaled per
+         rank so the rows recede without anything being redrawn. -->
+    <g id="seat">
+      <path d="M0 0h58c6 0 10 4 10 10v46c0 6-4 10-10 10H0Z" fill="#1a1613"/>
+      <path d="M4 4h50c5 0 8 3 8 8v40c0 5-3 8-8 8H4Z" fill="#d8ab4e"/>
+      <path d="M0 66h74c5 0 8 3 8 8v10c0 5-3 8-8 8H0Z" fill="#1a1613"/>
+      <path d="M6 70h62c4 0 6 2 6 6v4c0 4-2 6-6 6H6Z" fill="#c9a24a"/>
+      <rect x="18" y="92" width="12" height="26" fill="#1a1613"/>
     </g>
-    <g transform="translate(995 578)"><circle r="30"/><path d="M-44 58c0-24 20-43 44-43s44 19 44 43Z"/></g>
+    <!-- Four ranks of four seats: one bank, so the mirrored side is a
+         transform of exactly the same geometry. -->
+    <g id="bank">
+      <g fill="#1a1613" opacity="0.9">
+        <path d="M0 700h700l-60 68H0Z"/><path d="M0 600h620l-52 60H0Z"/>
+        <path d="M40 522h548l-44 52H40Z"/><path d="M140 458h480l-36 44H140Z"/>
+      </g>
+      <g transform="translate(-150 586) scale(1.55)">
+        <use href="#seat"/><use href="#seat" x="92"/><use href="#seat" x="184"/>
+        <use href="#seat" x="276"/><use href="#seat" x="368"/><use href="#seat" x="460"/>
+      </g>
+      <g transform="translate(-60 496) scale(1.3)">
+        <use href="#seat"/><use href="#seat" x="92"/><use href="#seat" x="184"/>
+        <use href="#seat" x="276"/><use href="#seat" x="368"/><use href="#seat" x="460"/>
+      </g>
+      <g transform="translate(40 424) scale(1.08)">
+        <use href="#seat"/><use href="#seat" x="92"/><use href="#seat" x="184"/>
+        <use href="#seat" x="276"/><use href="#seat" x="368"/><use href="#seat" x="460"/>
+      </g>
+      <g transform="translate(140 366) scale(0.88)">
+        <use href="#seat"/><use href="#seat" x="92"/><use href="#seat" x="184"/>
+        <use href="#seat" x="276"/><use href="#seat" x="368"/><use href="#seat" x="460"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="1810" height="768" fill="#f2eee3"/>
+
+  <!-- back wall, gold, with the windows cut into it -->
+  <rect x="0" y="0" width="1810" height="444" fill="#c9a24a"/>
+  <rect x="0" y="0" width="1810" height="34" fill="#1a1613" opacity="0.9"/>
+
+  <!-- Back wall: tall windows with gold mullions and cream glass. The centre
+       window is taller and sits on the aisle's vanishing point. -->
+  <rect x="596" y="52" width="618" height="392" fill="#c9a24a"/>
+  <rect x="812" y="26" width="186" height="418" fill="#c9a24a"/>
+  <g fill="#f7f3e8">
+    <rect x="624" y="80" width="72" height="336"/><rect x="716" y="80" width="72" height="336"/>
+    <rect x="836" y="56" width="66" height="360"/><rect x="908" y="56" width="66" height="360"/>
+    <rect x="1022" y="80" width="72" height="336"/><rect x="1114" y="80" width="72" height="336"/>
+  </g>
+  <g stroke="#1a1613" stroke-width="9">
+    <path d="M660 80v336M752 80v336M869 56v360M941 56v360M1058 80v336M1150 80v336"/>
+    <path d="M624 214h164M836 190h138M1022 214h164"/>
+  </g>
+  <g fill="none" stroke="#1a1613" stroke-width="11">
+    <rect x="624" y="80" width="164" height="336"/><rect x="836" y="56" width="138" height="360"/>
+    <rect x="1022" y="80" width="164" height="336"/>
+  </g>
+  <!-- light thrown out of the windows onto the wall below them -->
+  <g fill="#d8ab4e" opacity="0.5">
+    <path d="M788 416l84-96v96ZM974 416l84-96v96Z"/>
   </g>
 
-  <!-- Aisle steps down the near side, the way out. -->
-  <g fill="#1a1613" opacity="0.16">
-    <path d="M1246 738h130v30h-130ZM1272 690h104v30h-104ZM1298 640h78v30h-78ZM1322 592h54v30h-54Z"/>
-  </g>
-  </g>
+  <!-- Floor, then the aisle widening toward the viewer. Cream, so the eye
+       runs straight down it to the windows. -->
+  <rect x="0" y="444" width="1810" height="324" fill="#f2eee3"/>
+  <path d="M760 444h290l318 324H442Z" fill="#f7f3e8"/>
 
-  <!-- floor, below the front row -->
-  <rect x="0" y="588" width="1376" height="180" fill="#efe7d8"/>
+  <use href="#bank"/>
+  <use href="#bank" transform="translate(1810 0) scale(-1 1)"/>
+
+  <!-- The room is empty, which is the point: this course does not teach here.
+       One seat folded down on the aisle is the only sign anyone came. -->
+  <g transform="translate(470 636) scale(1.1)">
+    <path d="M0 66h74c5 0 8 3 8 8v10c0 5-3 8-8 8H0Z" fill="#1a1613"/>
+    <path d="M6 70h62c4 0 6 2 6 6v4c0 4-2 6-6 6H6Z" fill="#d8ab4e"/>
+    <rect x="18" y="92" width="12" height="26" fill="#1a1613"/>
+  </g>
 </svg>

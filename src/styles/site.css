@@ -1,0 +1,22 @@
+/* Site-level overrides on top of the theme. Loaded via `brandCss` in
+   astro.config.ts, which the theme imports globally on every page. */
+
+/* The theme's hero is 20rem tall at every width. That was fine for the
+   starter's banner, which was a repeating texture and read the same however it
+   was cropped. Every illustration on this site has a single subject instead —
+   a tree, a circle of people, one person at a desk — and at 20rem in a
+   full-width box, `object-fit: cover` was cutting the bottom off all of them.
+   Growing with the viewport keeps the crop close to the artwork's own ratio,
+   so the subject survives. */
+.at-hero:has(.at-hero-image) {
+  min-height: clamp(20rem, 30vw, 30rem);
+}
+
+/* Below the nav breakpoint the box is taller than it is wide relative to a
+   2.36:1 banner, so height has to come back down or the sides get cropped
+   away instead. */
+@media (width < 640px) {
+  .at-hero:has(.at-hero-image) {
+    min-height: 15rem;
+  }
+}

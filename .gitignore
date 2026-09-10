@@ -33,3 +33,7 @@ mise.local.toml
 image.png
 image-*.png
 stitch_university_website_illustration_suite/
+
+# Stitch exports arrive as zips; the used illustrations are committed
+# under src/assets/images/ and src/content/people/.
+*.zip

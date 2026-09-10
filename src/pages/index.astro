@@ -2,7 +2,7 @@
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
-import heroImage from "../assets/images/hero-home.svg";
+import heroImage from "../assets/images/hero-home.png";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
 ---
@@ -11,7 +11,7 @@ import { sessionLabels, siteConfig } from "../site-config";
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   heroImage={heroImage}
-  heroImageAlt="An empty lecture theatre seen down its central aisle: two banks of tiered gold seats on either side, tall windows at the back, and one seat folded down on the aisle — flat gold and black on cream"
+  heroImageAlt="Two people under a windblown tree, one leaning on a low stone wall with a notebook and one sitting on the grass mid-sentence, with loops, question marks and scribbled shapes drifting off on the wind — flat gold and black on cream"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">

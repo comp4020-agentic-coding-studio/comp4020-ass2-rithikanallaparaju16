@@ -539,6 +539,53 @@ most of all, so telling students to attend closely to their own hands may be
 a rumination exercise with better branding. The crit states the bet it is
 making instead of hiding the problem.
 
+Then the artwork, which was the last starter content in the repo:
+
+> honestly add more images like our agentic AI course site wherever necessary,
+> add image of a woman having a calm smile there in place of people […] for
+> other page images, lectures: add tree with leaves flowing in the wind
+> because that shows where the lectures will take place and how the syudents
+> feel. for crits just show students having a warm smile when the others speak
+> and a few take notes […] for assesments show a stuydent sitting in an open
+> space and just thinking […] for people just show the lecturer or tutor
+> tecahing a cohort […] the size of the images should match the image on the
+> first page and should render the same way.
+
+[`c4025b5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/c4025b5)
+and
+[`405024c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/405024c) —
+replaced every starter image and gave each section its own banner. This is the
+commit that turned `pnpm check:evidence` green.
+
+**The constraint shaped the answer.** I have no image generator, so instead of
+sourcing stock art I authored the whole set as SVG in the brand's two-ink
+register — gold `#b97d1c` and bronze `#8a5c13` over near-black or warm cream —
+with each piece built as two plates printed slightly out of register, because
+that offset is what makes a risograph read as printed rather than drawn. The
+files are 1–3 KB each, editable as text, and diff properly in git, which stock
+photography does not. The social card had to be a raster, since no platform
+renders SVG link previews, so it is authored as SVG and rasterised to PNG
+through headless Chrome with the source kept beside it.
+
+**Everything wrong with them was found by rendering, not by reasoning.** A
+first pass gave one portrait a jaw-line beard that read as an enormous grin,
+and another side hair that read as two floating black bars. The lecture canopy
+carried `mix-blend-mode: screen`, so the pale branches beneath showed straight
+through the leaves. The crit listeners sat on one baseline and read as a row
+rather than a circle. The crit speaker was bronze on bronze ground and simply
+vanished. The assessment student was too small to read as a person. None of
+that was visible in the markup; all of it was obvious in a screenshot.
+
+Two content bugs fell out of the same pass: Revathi Menon had an authored
+portrait that no page referenced, so People still rendered two portraits and
+one blank card, and the assessment page opened by restating its own lead
+almost word for word.
+
+The one deliberate reinterpretation: the brief asked for a calm-smiling face
+on People and, later, for a tutor teaching a cohort. The banner does both — the
+teacher carries the same closed-eyed smile as the three portrait cards below
+it, so the page reads as one set instead of two ideas.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

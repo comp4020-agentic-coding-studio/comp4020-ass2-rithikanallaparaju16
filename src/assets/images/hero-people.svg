@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520" role="img">
+  <!-- Banner for the People page: the same calm, closed-eyed face as the
+       portraits, at banner scale and off to one side so the page title has
+       somewhere to sit. Dark ground, because the title overlays it. -->
+  <defs>
+    <clipPath id="faceClip"><circle cx="1180" cy="262" r="176"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="520" fill="#14110e"/>
+
+  <!-- soft ink field behind the face, out of register with itself -->
+  <g style="mix-blend-mode:screen">
+    <circle cx="1188" cy="256" r="186" fill="#8a5c13" opacity="0.45"/>
+    <circle cx="1172" cy="268" r="186" fill="#b97d1c" opacity="0.3"/>
+  </g>
+
+  <g clip-path="url(#faceClip)">
+    <circle cx="1180" cy="262" r="176" fill="#f3ece0"/>
+    <!-- hair mass, cropped by the circle so it reads as a print, not a sticker -->
+    <path d="M1180 96c98 0 158 68 158 166 0 30-6 54-14 54-8 0-4-46-24-70-18-22-52-32-120-32-46 0-78 10-96 32-20 24-16 70-24 70-8 0-14-24-14-54 0-98 36-166 134-166Z" fill="#1a1613"/>
+    <!-- calm, closed eyes and a shallow smile, matching the portrait series -->
+    <path d="M1104 254c14-16 40-16 54 0" stroke="#1a1613" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M1214 254c14-16 40-16 54 0" stroke="#1a1613" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M1098 212c18-9 48-9 64-3" stroke="#1a1613" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M1210 209c18-6 48-6 64 3" stroke="#1a1613" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M1138 330c16 16 68 16 84 0" stroke="#1a1613" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="1084" cy="300" rx="26" ry="15" fill="#b97d1c" opacity="0.32"/>
+    <ellipse cx="1276" cy="300" rx="26" ry="15" fill="#b97d1c" opacity="0.32"/>
+  </g>
+
+  <!-- three small seated figures at the left: the teaching team, at the scale
+       the course actually holds them at -->
+  <g fill="#b97d1c" opacity="0.5">
+    <g transform="translate(232 300)">
+      <circle cx="0" cy="0" r="30"/><path d="M-44 104c0-36 20-64 44-64s44 28 44 64Z"/>
+    </g>
+    <g transform="translate(370 318)">
+      <circle cx="0" cy="0" r="28"/><path d="M-41 98c0-34 19-60 41-60s41 26 41 60Z"/>
+    </g>
+    <g transform="translate(498 306)">
+      <circle cx="0" cy="0" r="26"/><path d="M-39 92c0-32 17-56 39-56s39 24 39 56Z"/>
+    </g>
+  </g>
+
+  <!-- ground line, one ink -->
+  <path d="M0 424c300-30 600-22 900-4s400 22 700-4v104H0Z" fill="#8a5c13" opacity="0.3"/>
+</svg>

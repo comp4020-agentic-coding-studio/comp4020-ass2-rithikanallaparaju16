@@ -6,6 +6,8 @@ description:
 affiliation: Visiting practitioner
 role: visiting teacher
 contact: Present for the week 3 crit only; questions about the practice are best asked there.
+photo: ./revathi-menon.svg
+photoAlt: A stylised portrait of a person with long hair, closed eyes and a calm, closed smile, flat gold and near-black shapes on warm cream, in a two-ink risograph print
 ---
 
 Teaches vipassana-style insight meditation in the Indian tradition, and is in

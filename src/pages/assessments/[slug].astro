@@ -41,8 +41,8 @@ const { Content } = await render(assessment);
   <Content />
   <SpecList spec={assessment.data.spec}>
     The brief poses the problem and leaves room for a response. The spec is the
-    fixed part: what a marker checks. Some lines can be checked mechanically;
-    the rest call for judgement.
+    fixed part, the bit a marker checks. Some lines can be checked
+    mechanically. The rest call for judgement.
   </SpecList>
   {assessment.data.marking && <MarkingModel marking={assessment.data.marking} />}
   <RelatedContent entry={assessment} collections={graphCollections} />

@@ -50,7 +50,7 @@ export const courseMeta = slopCourseMetaSchema.parse({
   endDate: "2027-06-21",
   description:
     "Thinking that never gets to finish starts again. That is what a spiral " +
-    "is, and this course builds the conditions under which one can close: " +
+    "is. This course builds the conditions under which one can close, " +
     "outdoors, in silence, ten minutes at a time. Then it aims the same " +
     "unreasonable rigour at what could go right.",
   tags: ["metacognition", "attention", "discussion-based"],

@@ -1,9 +1,9 @@
 ---
 title: Showing up
 description:
-  Attendance at lectures and participation in crits, worth 20% — because
-  these are techniques and techniques need practice, with the absences and
-  the silence both accounted for.
+  Attendance at lectures and participation in crits, worth 20%. These are
+  techniques and techniques need practice, with the absences and the silence
+  both accounted for.
 week: 12
 due: 2027-05-28T17:00:00+10:00
 weight: 20
@@ -16,23 +16,23 @@ marking:
       weight: 50
 spec:
   - you attended at least 9 of the 12 lectures in person
-  - you took part in at least 9 of the 12 crits — took part meaning did the
-    activity, not spoke the most
+  - you took part in at least 9 of the 12 crits, where taking part means you
+    did the activity, not that you spoke the most
   - nothing to submit; this accrues across the semester
 related:
   - the-log
 heroImage: /src/assets/images/art/asmt-showing-up.png
-heroImageAlt: "A speaker beside a whiteboard with three people in front of them, one seated and two standing — flat gold and black on cream"
+heroImageAlt: "A speaker beside a whiteboard with three people in front of them, one seated and two standing. Flat gold and black on cream"
 ---
 
 ## Why this is marked at all
 
 Because you cannot learn to catch yourself mid-spiral by reading that it is
-possible. Every technique in this course — the ten minutes, the defusion stem,
-the layered analysis, the silent meal — is a thing you do with your body in a
-room with other people, and it takes repetition at a rhythm to become
-available to you under pressure. A recording cannot give you that, and neither
-can a summary.
+possible. Every technique in this course is a thing you do with your body in a
+room with other people. The ten minutes, the defusion stem, the layered
+analysis, the silent meal. It takes repetition at a rhythm to become available
+to you under pressure. A recording cannot give you that, and neither can a
+summary.
 
 That is also why the course runs a lecture *and* a crit every week rather than
 alternating. Twice a week for twelve weeks is what makes a habit instead of a
@@ -51,9 +51,9 @@ week you lose. They are for catching up, not for attending.
 Nine of twelve, on both halves. So **three absences of each cost you
 nothing**, you do not have to explain them, and you should not email anyone
 about them. Save the paperwork for something that matters. If you are past
-three and the reason is real — illness, caring, a life event, a body that does
-not cooperate on a schedule — talk to the convenor, because a mark for
-showing up should never be the thing that breaks a semester.
+three and the reason is real, talk to the convenor. Illness, caring, a life
+event, a body that does not cooperate on a schedule. A mark for showing up
+should never be the thing that breaks a semester.
 
 ## Participation does not mean talking
 
@@ -74,20 +74,20 @@ anxiety that paid people to speak up would be marking the symptom.
 ## The evidence, and the gap in it
 
 The rest of this site names a study for every claim, so this page has to
-survive the same test — and it only half does.
+survive the same test. It only half does.
 
 **Attendance genuinely predicts performance.** Credé, Roch and Kieszczynka
 (2010, *Review of Educational Research*) meta-analysed the question and found
 attendance correlates with course grades at about ρ = .44 across 69 studies
 and 21,000 students, and with GPA at about .41. It out-predicted SAT scores,
-high-school GPA, study habits and study skills — and did so largely
+high-school GPA, study habits and study skills. It did so largely
 independently of them. As predictors of university grades go, it is one of the
 best there is.
 
 **That is not the same claim as "requiring attendance helps."** The same
-meta-analysis found the effect of *mandatory attendance policies* to be small
-— around d = .21 — and based on only three studies with about 1,400 students
-between them. Students who turn up do better; compelling turnout is a much
+meta-analysis found the effect of *mandatory attendance policies* to be small,
+around d = .21, and based on only three studies with about 1,400 students
+between them. Students who turn up do better. Compelling turnout is a much
 weaker lever, and confusing the two is precisely the inferential slip this
 course spends twelve weeks teaching you to catch. We are requiring it anyway,
 on the argument at the top of this page rather than on that evidence, and it
@@ -103,7 +103,7 @@ inclusive alternatives is thin.
 
 The three-week allowance and the definition of participation above are this
 course's answer to that. They are a mitigation, not a solution. If you think
-the trade is wrong, say so — the capstone is a legitimate place to argue that
-a course about mental load has no business making anything compulsory, and
-that argument will be marked on how well it is made, not on whether it agrees
-with us.
+the trade is wrong, say so. The capstone is a legitimate place to argue that a
+course about mental load has no business making anything compulsory, and that
+argument will be marked on how well it is made, not on whether it agrees with
+us.

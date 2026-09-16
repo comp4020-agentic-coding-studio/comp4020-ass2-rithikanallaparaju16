@@ -11,9 +11,8 @@ photo: ./idris-fenn.png
 photoAlt: An inked portrait of a person in a dark crew-neck sweater, against a plain gold panel
 ---
 
-Runs "The reveal," "The sandwich," "How you stopped" and "When it helps,"
-gives the week 5 and week 6 lectures on incubation and doomscrolling, and
-marks both assessments. Prefers
-questions asked in the room where a crit just happened over questions asked
-by email a week later — the second kind has usually lost the detail that made
-it worth asking.
+Runs "The reveal," "The sandwich," "How you stopped" and "When it helps."
+Gives the week 5 and week 6 lectures on incubation and doomscrolling, and
+marks both assessments. Prefers questions asked in the room where a crit just
+happened over questions asked by email a week later. The second kind has
+usually lost the detail that made it worth asking.

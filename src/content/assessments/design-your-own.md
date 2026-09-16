@@ -1,7 +1,7 @@
 ---
 title: Design your own intervention
 description:
-  The capstone — design, and if you can arrange it run, a new crit-style
+  The capstone. Design, and if you can arrange it run, a new crit-style
   activity that catches overthinking somewhere the course hasn't already
   looked
 week: 9
@@ -16,24 +16,24 @@ marking:
     context, can score as well as something wholly original.
 spec:
   - a written brief for a new activity, in the shape a crit page in this
-    course follows — what people bring, what happens, what's discussed
-    afterwards
+    course follows, covering what people bring, what happens, what's
+    discussed afterwards
   - a stated account of what it's meant to catch or teach, and why the crit
     format, rather than being told, is the right way to do it
   - a reflection on how it went if you ran it, or your best prediction of
     where it would snag if you didn't
 heroImage: /src/assets/images/art/asmt-design-your-own.png
-heroImageAlt: "A tree whose branches are made of open books, folders, magnifying glasses and coffee cups — flat gold and black on cream"
+heroImageAlt: "A tree whose branches are made of open books, folders, magnifying glasses and coffee cups. Flat gold and black on cream"
 ---
 
 ## The brief
 
 > Design the crit this course didn't have time to run.
 
-Pick a flavour of overthinking the semester's crits did not cover — money,
-relationships, work decisions, a hobby, something specific to your own life —
-and design an activity for it in the same shape: a provocation, something
-people do together, and a discussion with no scripted answer.
+Pick a flavour of overthinking the semester's crits did not cover. Money,
+relationships, work decisions, a hobby, something specific to your own life.
+Then design an activity for it in the same shape, with a provocation,
+something people do together, and a discussion with no scripted answer.
 
 If you borrow a mechanism from the course, say which and say what you changed.
 An honest adaptation of [the sandwich](/sessions/05-the-sandwich/) to a
@@ -42,25 +42,24 @@ would not survive contact with a room.
 
 ## The crit day
 
-The capstone is presented at the week 9 crit, and that crit opens the way the
-course has opened every class since week 3 — except that this time
-everyone eats together, in silence, for the first twenty minutes. No phones,
-no slides up, no talking. Bring lunch or we will feed you badly.
+The capstone is presented at the week 9 crit. That crit opens the way the
+course has opened every class since week 3, except this time everyone eats
+together, in silence, for the first twenty minutes. No phones, no slides up,
+no talking. Bring lunch or we will feed you badly.
 
-It is the sandwich crit at full scale, and it is deliberately the last thing
-the course does before you present: twenty quiet minutes with an undemanding
-task is, on the evidence in
-[the empty slot](/lectures/05-the-empty-slot/), roughly the condition under
-which people's thinking finishes itself. Whether it helps your presentation is
-an experiment with a sample size of one class, and we will ask you afterwards.
+It is the sandwich crit at full scale, and deliberately the last thing the
+course does before you present. Twenty quiet minutes with an undemanding task
+is, on the evidence in [the empty slot](/lectures/05-the-empty-slot/), roughly
+the condition under which people's thinking finishes itself. Whether it helps
+your presentation is an experiment with a sample size of one class, and we
+will ask you afterwards.
 
 The pass rule applies. Eat elsewhere and come back at twenty past if you would
 rather.
 
 ## What you submit
 
-The brief itself, written as a crit page (see any of this course's own
-crits for the shape), plus the reflection or prediction named above. If you
-ran it — on a friend group, a class, anyone willing — say what actually
-happened; if you did not, be honest that it is a prediction and say what you
-would watch for.
+The brief itself, written as a crit page (see any of this course's own crits
+for the shape), plus the reflection or prediction named above. If you ran it
+on a friend group, a class, anyone willing, say what actually happened. If you
+did not, be honest that it is a prediction and say what you would watch for.

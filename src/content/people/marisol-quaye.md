@@ -11,11 +11,11 @@ photo: ./marisol-quaye.png
 photoAlt: An inked portrait of an older person in glasses, wearing a dark jacket over a gold shirt, against a panel of gold geometric pattern
 ---
 
-Designed "The layered 'OK'" and "Aim it at the good," gives the week 1 and
-week 2 lectures, and is responsible for the two decisions students ask about
-most: that the lectures happen outdoors, and that grading is a short audit
-plus one open-ended capstone rather than anything weekly. Weekly grading, on
-this material, tends to teach the opposite of the course.
+Designed "The layered 'OK'" and "Aim it at the good," and gives the week 1 and
+week 2 lectures. Responsible for the two decisions students ask about most.
+The lectures happen outdoors, and grading is a short audit plus one
+open-ended capstone rather than anything weekly. Weekly grading, on this
+material, tends to teach the opposite of the course.
 
 Keeps the reading list short and the citations real. If a claim on this site
 has a name and a year attached, she has read the paper; if it doesn't, it is

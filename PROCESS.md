@@ -681,6 +681,44 @@ finding the panel black.
 link whose text is already the title; a description on the image inside it
 would be announced twice.
 
+Then the nav bar itself, once the extra tab and the mobile fix had both landed:
+
+> the search button needs to be after the last tab, tha is policies, and dark
+> mode should be on the same line but to the left. make sure this renderes
+> well on all the gadgets. and save all the work. pls upadte process.md
+> everytime you commit do i can make it better beforte submitting
+
+[`2982f0c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/2982f0c) —
+moved the colour-scheme toggle out of the footer and into the nav bar,
+immediately to the left of search, at the end of the link row after Policies.
+
+The theme renders that toggle as a footer control and search as a nav
+control, so getting them onto the same line meant moving a DOM node between
+layout regions rather than restyling one in place. `nav-controls.ts` moves
+the theme's own toggle element (not a copy of it), because the click handler,
+the `at-theme` storage key and the head script that avoids a flash of the
+wrong theme all already point at `.at-footer-theme-toggle` — a second button
+would have been a second source of truth for the same setting. With
+JavaScript disabled the toggle simply stays where the theme put it, in the
+footer, which still works. The empty footer row and its separating rule are
+removed once the toggle leaves, so nothing dangles behind.
+
+This is the same pattern as the earlier nav-escape fix: injected via
+`astro.config.ts` rather than patched into the theme, so both survive a
+theme upgrade. The integration got renamed from `nav-escape` to `nav-fixes`
+now that it injects two scripts instead of one.
+
+The "renders well on all the gadgets" instruction got checked properly
+rather than assumed, given the last nav round found a real bug that
+screenshots alone had missed. A Playwright script drove the homepage at
+390×844, 768×1024 and 1280×900: at all three, the toggle sits inside
+`.site-nav-controls` immediately before the search button, both are visible,
+clicking the toggle still flips `data-theme` between light and dark, no page
+introduces horizontal scroll, the footer's legal row is gone rather than
+left empty, and the console throws nothing. Phone width collapses the link
+row behind the existing hamburger, as it already did; the toggle and search
+stay on the visible bar throughout, which was the actual ask.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

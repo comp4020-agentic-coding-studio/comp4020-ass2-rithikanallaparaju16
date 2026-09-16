@@ -6,6 +6,7 @@ description:
   about each. One of them does the opposite of what you think.
 week: 10
 date: 2027-05-10
+slides: /decks/lec-10-nap-coffee-treat/
 teachers:
   - marisol-quaye
 spec:

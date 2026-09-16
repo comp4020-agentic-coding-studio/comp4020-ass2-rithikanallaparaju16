@@ -6,6 +6,7 @@ description:
   intervention built on the idea that other people close your loops
 week: 8
 date: 2027-04-26
+slides: /decks/lec-08-act-anyway/
 teachers:
   - idris-fenn
 spec:

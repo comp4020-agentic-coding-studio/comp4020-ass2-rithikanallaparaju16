@@ -120,3 +120,75 @@
     height: 2.25rem;
   }
 }
+
+/* Portraits are square; the theme's card frame is landscape and crops with
+   `cover`, which takes the top of a head off. A square frame plus `contain`
+   shows the whole portrait whatever shape it arrives in, and the cream
+   behind it matches the illustrations' own background so the fit is
+   invisible. Scoped to people, because the landscape artwork on every other
+   card grid is drawn to be cropped. */
+.people-grid .at-card-image-frame {
+  aspect-ratio: 1 / 1;
+  background: var(--at-bg-alt);
+}
+
+.people-grid .at-card-image {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+/* A person page shows its portrait in the body rather than as a hero band.
+   A hero is about 3.3:1, so a square portrait put through it crops to a
+   strip across the face; no object-position saves that. Inline, at its own
+   aspect ratio, nothing is cut. */
+.person-header {
+  display: grid;
+  gap: var(--at-spacing-md);
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  align-items: start;
+  margin-block-end: var(--at-spacing-md);
+}
+
+.person-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--at-border-radius);
+  background: var(--at-bg-alt);
+}
+
+.person-header dl {
+  margin-block: 0;
+}
+
+/* One column on a phone, portrait capped so it doesn't eat the screen
+   before the detail a reader came for. */
+@media (width < 640px) {
+  .person-header {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .person-portrait {
+    max-width: 12rem;
+  }
+}
+
+/* Without a hero band the theme's h1 top margin leaves a gap where the
+   image used to be. Only person pages drop the hero, so key off the block
+   that replaced it. */
+main:has(.person-header) > h1 {
+  margin-block-start: 0;
+}
+
+/* The default definition list indents each value away from its label, which
+   reads as an outline rather than a record. */
+.person-header dd {
+  margin-inline-start: 0;
+  margin-block-end: var(--at-spacing-sm);
+}
+
+.person-header dt {
+  color: var(--at-text-secondary);
+  font-size: 0.9rem;
+}

@@ -36,6 +36,7 @@ const visible = people.sort((a, b) => {
 });
 ---
 
+<div class="people-grid">
 <CardGrid columns={2}>
   {
     visible.map((person) => (
@@ -56,3 +57,4 @@ const visible = people.sort((a, b) => {
     ))
   }
 </CardGrid>
+</div>

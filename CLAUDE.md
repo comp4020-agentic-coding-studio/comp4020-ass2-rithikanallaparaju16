@@ -41,6 +41,41 @@ The course is fictional. The science in it is not, and must not be.
   works, or reads as an instruction to the course author, is scaffolding and
   gets deleted, not left on a page students will read.
 
+## Plain writing, and no AI slop
+
+Everything on this site is written to be read by a student, so it reads like a
+person wrote it. This rule exists because a lot of the first draft did not.
+
+- **Short, plain sentences.** Say the thing. Cut extra words, extra
+  adjectives, filler.
+- **Write like people talk.** Starting a sentence with "and" or "but" is fine.
+  Casual grammar is fine when it reads more human.
+- **No marketing register.** No hype, no exaggeration, no overpromising, no
+  faked friendliness. This one overlaps with "no invented facts": the site
+  does not oversell the evidence *or* the course.
+- **No AI giveaway phrases.** "Dive into", "unleash", "game-changing",
+  "delve", "testament to", "navigate the landscape", and their relatives.
+- **No rhetorical questions** used as engagement bait ("Have you ever
+  wondered…?"), and no fake engagement ("Let's take a look", "Buckle up").
+  Genuine discussion prompts inside a crit brief are a different thing and
+  stay.
+
+Three mechanical bans, because they are what made the early drafts read as
+generated:
+
+- **No em dashes.** Split the sentence instead. En dashes stay in numeric
+  ranges (`1874–1938`, `6–14%`).
+- **No colons in prose.** YAML keys, table pipes, markdown links and field
+  labels like **Due:** are formatting, and stay.
+- **No padded "X and also Y" constructions.**
+
+When applying this to existing copy, the hedges are content, not padding.
+"Small", "contested", "mixed", "a hunch", "promising, not established" and
+"design reasoning, not a finding" all survive a rewrite untouched. Tightening
+prose is the easiest way to accidentally upgrade a hunch into a finding, so
+after any tone pass, check the numbers and the citations still say exactly
+what they said before.
+
 ## Care with the material
 
 Overthinking runs into anxiety, grief, and things students haven't told

@@ -6,6 +6,7 @@ description:
   runs ahead of the evidence
 week: 2
 date: 2027-03-01
+slides: /decks/lec-02-the-spiral/
 teachers:
   - marisol-quaye
 spec:

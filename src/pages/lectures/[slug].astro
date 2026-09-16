@@ -2,6 +2,7 @@
 import { render } from "astro:content";
 import { getPublishedCollection } from "astro-course-university/content";
 import RelatedContent from "astro-course-university/components/RelatedContent.astro";
+import Callout from "astro-theme-university/components/Callout.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import { withBase } from "astro-theme-university/url";
 import TeachingTeam from "../../components/TeachingTeam.astro";
@@ -25,6 +26,17 @@ const title = `Week ${lecture.data.week}: ${lecture.data.title}`;
   heroImage={lecture.data.heroImage}
   heroImageAlt={lecture.data.heroImageAlt}
 >
+  {
+    lecture.data.draft && (
+      <Callout type="warning">
+        <p>
+          <strong>Provisional.</strong> This week is the teaching team's best guess at
+          what the cohort will vote to cover. It can be replaced, and the vote is the
+          thing that replaces it.
+        </p>
+      </Callout>
+    )
+  }
   <p><strong>{formatCourseDate(lecture.data.date)}</strong></p>
   {lecture.data.slides && <p><a href={withBase(lecture.data.slides)}>Open the slides</a></p>}
   <Content />

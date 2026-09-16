@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { render } from "astro:content";
 import { getPublishedCollection } from "astro-course-university/content";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
@@ -33,11 +34,19 @@ const description = person.data.description;
 <ContentLayout
   title={person.data.title}
   description={description}
-  heroImage={person.data.photo ?? undefined}
-  heroImageAlt={photoAlt}
   {...siteConfig}
 >
-  <dl>
+  <div class="person-header">
+    {person.data.photo && (
+      <Image
+        class="person-portrait"
+        src={person.data.photo}
+        alt={photoAlt}
+        widths={[240, 480]}
+        sizes="(width < 640px) 12rem, 15rem"
+      />
+    )}
+    <dl>
     {roleLabel && (
       <>
         <dt>Role</dt>
@@ -66,9 +75,10 @@ const description = person.data.description;
         </dd>
       </>
     )}
-    <dt>Contact</dt>
-    <dd>{person.data.contact}</dd>
-  </dl>
+      <dt>Contact</dt>
+      <dd>{person.data.contact}</dd>
+    </dl>
+  </div>
 
   <Content />
 </ContentLayout>

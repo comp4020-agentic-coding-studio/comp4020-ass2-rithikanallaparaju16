@@ -3,7 +3,9 @@ import { render } from "astro:content";
 import { getPublishedCollection } from "astro-course-university/content";
 import RelatedContent from "astro-course-university/components/RelatedContent.astro";
 import SpecList from "astro-course-university/components/SpecList.astro";
+import Callout from "astro-theme-university/components/Callout.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
+import { withBase } from "astro-theme-university/url";
 import TeachingTeam from "../../components/TeachingTeam.astro";
 import { formatCourseDate } from "../../lib/dates";
 import { graphCollections, sessionLabels, siteConfig } from "../../site-config";
@@ -24,6 +26,19 @@ const { Content } = await render(session);
   heroImage={session.data.heroImage}
   heroImageAlt={session.data.heroImageAlt}
 >
+  {
+    session.data.draft && (
+      <Callout type="warning">
+        <p>
+          <strong>Provisional.</strong> This is one of the cohort-voted weeks, and what
+          is written here is the teaching team's guess at what the vote will pick. The
+          vote happens after{" "}
+          <a href={withBase("/assessments/the-anonymous-thread/")}>the anonymous thread</a>,
+          and it decides.
+        </p>
+      </Callout>
+    )
+  }
   <p><strong>{formatCourseDate(session.data.date)}</strong></p>
   <Content />
   <SpecList spec={session.data.spec}>

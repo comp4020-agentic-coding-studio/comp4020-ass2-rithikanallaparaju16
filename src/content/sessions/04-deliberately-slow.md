@@ -64,6 +64,10 @@ Forty minutes. Three rounds, no talking during them.
 Do not narrate it to yourself. That instruction matters and the reason is
 below.
 
+Eating in front of people is not neutral for everyone. Pass on the first
+round and do a different action twice if you would rather, and you do not
+have to say which one you swapped.
+
 ## What the evidence actually says
 
 This is where the folk theory gets sorted into three piles, and one of the

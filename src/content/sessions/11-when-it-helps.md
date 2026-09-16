@@ -35,6 +35,10 @@ available yet. Second, take one of the spirals from an earlier crit and
 imagine it happening across a group instead of in one head, a thread where
 everyone's uncertainty feeds everyone else's. What changes?
 
+Contributing an example to the shared list is optional. You can pass without
+giving a reason, and an example you heard about second hand counts as much
+as one of your own.
+
 ## Afterwards
 
 This is the last crit before the final project, and the two threads above

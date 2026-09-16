@@ -36,6 +36,11 @@ Then discuss as a group. Is this a different activity, or the same one aimed
 differently? What does it cost to run this machinery on the positive case
 that it does not cost on the negative one, and what does that cost tell you?
 
+Naming something you actually want, out loud, in a room, is for some people
+harder than naming something they dread. So the usual rule holds. You can
+pass without giving a reason, and you can work on a deliberately small
+outcome rather than a real one.
+
 ## Afterwards
 
 Keep whatever you produced. It feeds the capstone directly, since an activity

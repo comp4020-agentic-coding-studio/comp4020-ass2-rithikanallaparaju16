@@ -719,6 +719,195 @@ left empty, and the console throws nothing. Phone width collapses the link
 row behind the existing hamburger, as it already did; the toggle and search
 stay on the visible bar throughout, which was the actual ask.
 
+Then a pass over the writing itself, across every page:
+
+> You are a writing assistant trained decades to write in a clear, natural,
+> and honest tone. Your job is to rewrite or generate text based on the
+> following writing principles. Here's what I want you to do: → Use simple
+> language — short, plain sentences. → Avoid AI giveaway phrases like "dive
+> into," "unleash," or "game-changing." → Be direct and concise — cut extra
+> words. → Maintain a natural tone — write like people actually talk. It's
+> fine to start with "and" or "but." → Skip marketing language — no hype, no
+> exaggeration. → Keep it honest — don't fake friendliness or overpromise. →
+> Simplify grammar — casual grammar is okay if it feels more human. → Cut the
+> fluff — skip extra adjectives or filler words. → Focus on clarity — make it
+> easy to understand. → Target audience (students who needmindfulness- the
+> course needs to look nice and attractive for them to take it): → Any
+> must-keep terms, details, or formatting: Constraints (Strict No-Use Rules):
+> → Do not use emdashes ( - ) in writing → Do not use lists or sentence
+> structures with "X and also Y" → Do not use colons ( : ) unless part of
+> input formatting → Avoid rhetorical questions like "Have you ever
+> wondered…?" → No fake engagement phrases like "Let's take a look," "Join me
+> on this journey," or "Buckle up" Most Important: → Match the tone to feel
+> human, authentic and not robotic or promotional.
+>
+> I also need you to keep updating process.md with prompts and a little
+> description so in the end i can just modify everything and submit
+>
+> Keep the tone more human, there is a lot of sloppy ai text
+>
+> first open the website in a browser for me
+
+and then, when asked where to apply it:
+
+> try doing this to the whole website also add this to process.md, the
+> sentence you chnaged:to what you chngaed it because of this prompt
+
+[`fc21db0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/fc21db0)
+rewrote 37 files. Every page, every crit and lecture brief, all four
+assessment briefs, the three staff pages, all four decks, and the site's own
+meta description.
+
+The mechanical rules were easy to apply and easy to check afterwards. No em
+dashes anywhere in the site copy, which mostly meant splitting a sentence in
+two rather than swapping in a comma every time. No colons in prose, though
+YAML keys, table pipes, markdown links and field labels like **Due:** stayed,
+since those are formatting. The en dashes that are left are all numeric
+ranges (`1874–1938`, `400–750 mg`, `6–14%`, `Weeks 1–4`) and were left alone
+on purpose, because turning a range into something else would corrupt data.
+
+The harder constraint was the one this repo already had. A tone pass is
+exactly the kind of edit that quietly strengthens a claim, because hedges
+read like padding when you are cutting padding. So "small", "contested",
+"mixed", "a hunch", "promising, not established" and "design reasoning, not a
+finding" were all treated as content rather than fluff. Afterwards I diffed
+every number and every capitalised word in all 37 files against the previous
+commit. The only numeric differences were trailing punctuation (`0.45` became
+`0.45.` where a sentence ended), and the only lost capitals were ordinary
+words like "Which" and "Past" that stopped being sentence-initial. All 26
+name-and-year citations survived. So did every percentage weight, every
+deadline, and every opt-out clause.
+
+### What changed, in the site's own sentences
+
+Homepage, the central claim:
+
+> **Before:** This course's claim is that the trouble was never volume — you're
+> not thinking *too much*, you're thinking in a loop that never reaches an
+> end, so it starts again. Which reframes the whole problem: the question
+> stops being how to think less and becomes what a thought needs in order to
+> finish.
+>
+> **After:** This course argues the trouble was never volume. You're not
+> thinking *too much*. You're thinking in a loop that never reaches an end, so
+> it starts again. That changes the question. It stops being how to think
+> less, and becomes what a thought needs in order to finish.
+
+Homepage, what the semester involves:
+
+> **Before:** Each one hands you a small provocation and turns you loose on it
+> with the rest of the room — overanalysing a text message in layers, guessing
+> the ending of something a classmate overthought, making and eating a
+> sandwich in complete silence, running the same excessive rigour on a
+> best-case scenario instead of a worst one.
+>
+> **After:** Each one hands you a small provocation and turns you loose on it
+> with the rest of the room. Overanalysing a text message in layers. Guessing
+> the ending of something a classmate overthought. Making and eating a
+> sandwich in complete silence. Running the same excessive rigour on a
+> best-case scenario instead of a worst one.
+
+Assessment, the scheduling argument:
+
+> **Before:** Put plainly: this course would rather be useful in week 11 than
+> assessed in week 11.
+>
+> **After:** Put plainly, this course would rather be useful in week 11 than
+> assessed in week 11.
+
+Policies, the AI rule:
+
+> **Before:** The reason is not integrity theatre. This course is about *your*
+> thinking — noticing your own loop, in your own words, and finding out what
+> stops it.
+>
+> **After:** The reason is not integrity theatre. This course is about *your*
+> thinking. Noticing your own loop, in your own words, and finding out what
+> stops it.
+
+Policies, the standing caveat, which is the place a tone pass could most
+easily have softened something:
+
+> **Before:** But so is this course, and so is the research it draws on: half
+> the studies cited here are small, several are contested, and the course's
+> own central claim has never been tested directly.
+>
+> **After:** But so is this course, and so is the research behind it. Half the
+> studies cited here are small. Several are contested. The course's own
+> central claim has never been tested directly.
+
+A crit brief, week 1:
+
+> **Before:** When the layers run out — or when the room notices it has started
+> arguing about something other than the message — stop, and go back through
+> the transcript together.
+>
+> **After:** Stop when the layers run out, or when the room notices it has
+> started arguing about something other than the message. Then go back through
+> the transcript together.
+
+A lecture, week 2, on why a spiral feels productive:
+
+> **Before:** It feels like work because it *is* work — just not the work that
+> would resolve anything.
+>
+> **After:** It feels like work because it *is* work, just not the work that
+> would resolve anything.
+
+A lecture, week 4, on where the practices came from. This one had to keep its
+provenance exactly:
+
+> **Before:** So the accurate sentence is the less quotable one: **adapted from
+> Buddhist contemplative traditions, plural, and then renamed.**
+>
+> **After:** So the accurate sentence is the less quotable one. **Adapted from
+> Buddhist contemplative traditions, plural, and then renamed.**
+
+An assessment brief, on the attendance evidence, where the hedge is the whole
+point of the sentence:
+
+> **Before:** The same meta-analysis found the effect of *mandatory attendance
+> policies* to be small — around d = .21 — and based on only three studies with
+> about 1,400 students between them.
+>
+> **After:** The same meta-analysis found the effect of *mandatory attendance
+> policies* to be small, around d = .21, and based on only three studies with
+> about 1,400 students between them.
+
+A deck slide, on the phone-break study:
+
+> **Before:** Kang and Kurtzberg (2019), 414 people, break activity and length
+> held constant — only the device changed:
+>
+> **After:** Kang and Kurtzberg (2019), 414 people, break activity and length
+> held constant. Only the device changed.
+
+The site-wide meta description, which is what shows up in a search result and
+on a shared link:
+
+> **Before:** That is what a spiral is, and this course builds the conditions
+> under which one can close: outdoors, in silence, ten minutes at a time.
+>
+> **After:** That is what a spiral is. This course builds the conditions under
+> which one can close, outdoors, in silence, ten minutes at a time.
+
+### Two things that were not tone changes
+
+`TeachingTeam.astro` rendered each person as "Name — Role". That em dash is
+generated by a component rather than written in a content file, so removing
+it meant editing the template. It is now "Name, Role".
+
+The week 1 crit asks everyone to name a real message they over-read, out
+loud. Its spec required that disclosure and the brief carried no opt-out,
+which contradicts the rule in `CLAUDE.md` that every activity involving
+sharing has one in writing. One sentence was added: "You can pass on this
+round without giving a reason." That is a content fix rather than a rewrite,
+and it is flagged here rather than buried in the diff, in case it should be
+worded differently.
+
+`pnpm check` passes. 34 pages, no accessibility violations, no broken links,
+no structural violations in the decks.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

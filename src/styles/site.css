@@ -20,3 +20,103 @@
     min-height: 15rem;
   }
 }
+
+/* The two site-wide controls, paired at the end of the nav bar by
+   src/scripts/nav-controls.ts. They share a row of their own so the icons can
+   sit close together while the bar's gap between brand, links and controls
+   stays wide. */
+.site-nav-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--at-spacing-sm);
+}
+
+/* The theme styles the toggle for a row of footer text — `all: unset` and a
+   1em icon — which next to the bordered search button reads as half a
+   control. These are `.at-icon-button`'s own values; it can't just wear that
+   class, because `all: unset` is declared later in the same layer and would
+   win. */
+.site-nav-controls .at-footer-theme-toggle {
+  width: 2.5rem;
+  height: 2.5rem;
+  justify-content: center;
+  border: 1px solid var(--at-divider);
+  border-radius: var(--at-border-radius);
+  color: var(--at-text);
+  transition: border-color 0.15s;
+}
+
+.site-nav-controls .at-footer-theme-toggle:hover {
+  border-color: var(--at-accent);
+  color: var(--at-text);
+}
+
+.site-nav-controls .at-footer-theme-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (width >= 640px) {
+  /* Six labels plus two icon buttons overrun the content column at the
+     theme's spacing, and because the bar is a wrapping flex row the overflow
+     landed as a search button on a second line under the logo. `nowrap` keeps
+     the bar to one line and hands any overflow to the links' own
+     scroll-and-fade, which the theme already styles for exactly this. The
+     other three rules buy the width back so the fade only appears on narrow
+     laptops: a slightly smaller lockup, a tighter bar gap, and links spaced
+     by their own padding rather than by padding plus a gap. */
+  .at-nav-inner {
+    flex-wrap: nowrap;
+    gap: 0 var(--at-spacing-md);
+  }
+
+  .at-nav-logo {
+    height: 2.25rem;
+  }
+
+  .at-nav-links {
+    gap: 0;
+    min-width: 0;
+  }
+}
+
+/* Between the nav breakpoint and a small laptop the content column is
+   narrower than the bar wants, and the links start disappearing under their
+   own fade. Tightening the lockup and the link padding across that band gets
+   the whole row visible on a tablet without making the desktop nav cramped. */
+@media (640px <= width < 1024px) {
+  .at-nav-inner {
+    gap: 0 var(--at-spacing-sm);
+  }
+
+  /* Shrink the lockup with the viewport rather than at a step, so the row
+     stays intact across the whole band instead of only at its ends. */
+  .at-nav-logo {
+    height: clamp(1.75rem, 2.6vw, 2.25rem);
+  }
+
+  .at-nav-links a {
+    padding-inline: var(--at-spacing-xs);
+  }
+}
+
+/* Narrower again and the wide lockup can't share a row with six labels at
+   any size worth reading, so the nav falls back to the crest. That is the
+   theme's own swap, moved to the width where this site's nav needs it. */
+@media (640px <= width < 800px) {
+  .at-nav-inner {
+    gap: 0 var(--at-spacing-xs);
+  }
+
+  .at-nav-brand:has(.at-nav-logo-compact) .at-nav-logo-full {
+    display: none;
+  }
+
+  .at-nav-logo-compact {
+    display: block;
+  }
+
+  .at-nav-logo {
+    height: 2.25rem;
+  }
+}

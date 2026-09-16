@@ -10,16 +10,22 @@ import { gitOrigin, resolveDeployment } from "./scripts/pages-base.ts";
 // Derived, never hardcoded --- see scripts/pages-base.ts for why.
 const { site, base } = resolveDeployment(process.env, gitOrigin);
 
-// The theme's nav opens its mobile menu on click but binds no key to close
-// it, which leaves a keyboard user stuck inside it at phone widths. Injecting
-// the fix here rather than editing the theme keeps it working across theme
-// upgrades --- see src/scripts/nav-escape.ts for why it reuses the theme's
-// own toggle instead of setting the attributes itself.
-const navEscape: AstroIntegration = {
-  name: "unfinished-thinking:nav-escape",
+// Two nav behaviours the theme doesn't ship, injected here rather than
+// patched into the theme so they survive a theme upgrade.
+//
+// - nav-escape: the mobile menu opens on click and binds no key to close it,
+//   which leaves a keyboard user stuck inside it at phone widths.
+// - nav-controls: the colour-scheme toggle lives in the footer; it belongs
+//   beside search, at the end of the nav.
+//
+// Both reuse the theme's own elements instead of duplicating them --- see the
+// files for why.
+const navFixes: AstroIntegration = {
+  name: "unfinished-thinking:nav-fixes",
   hooks: {
     "astro:config:setup": ({ injectScript }) => {
       injectScript("page", 'import "/src/scripts/nav-escape.ts";');
+      injectScript("page", 'import "/src/scripts/nav-controls.ts";');
     },
   },
 };
@@ -33,7 +39,7 @@ export default defineConfig({
   // 301 on GitHub Pages.
   trailingSlash: "always",
   integrations: [
-    navEscape,
+    navFixes,
     universityTheme({
       defaultLayout: "src/layouts/PageLayout.astro",
       // The whole brand choice: three colour tokens and a set of lockups. Keep

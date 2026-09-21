@@ -1,33 +1,34 @@
 # Process overview
 
-<!-- MINE TO REWRITE: accurate, and still not in my voice. The full working
-     log is in PROCESS-LOG.md, which is where everything below was cut from. -->
-
 ## What I built
 
-**SLOP6676 Unfinished Thinking**, a site for a fictional postgraduate course
-about noticing when you are overthinking and choosing whether to keep going.
+**SLOP6676 Unfinished Thinking.** I chose this topic because it is very
+relevant to the current generation. All of us get easily distracted, we have
+much shorter attention spans, and so on.
 
-The argument narrowed as I went. Most advice says think less. This course says
-a spiral *repeats*, because the thinking never gets the conditions to finish.
-The research says those conditions are oddly specific, an easy automatic task
-with your attention left free. That claim turned a pile of activities into a
-course, and it is why there is a lecture and a crit every week, outdoors, each
-opening with ten minutes of nothing.
+So a course like this can help students understand how humans were actually
+designed to work, and show that the fault was never with who they are. They
+just need to be careful about the small things that make a very large
+difference.
 
-The course is fictional. The science in it is not. Every claim names a real
-author and year, and the central claim is labelled a hunch.
+The course is interactive and is mostly based on human to human talks,
+understanding nature better, and understanding your own body better.
 
 ## Why the course is shaped this way
 
-**Nobody teaches this.** Everyone has re-read a two-word reply too many times.
-It gets handled either as a personality quirk or as a clinical problem, and
-the space between those is where almost everybody lives.
+**It runs on practice, not information.** This course relies a lot on
+attendance, because I believe the practices taught here should be practised
+very regularly to show any impact. It asks for feedback because every human is
+different, and dealing with thinking is different for each of them.
 
-**Noticing is only half.** The course started as a way to notice overthinking.
-That is where most writing on it stops, and on its own it just makes you
-better at watching yourself spiral. So every crit ends with something you do,
-not something you understand.
+**Students should feel safe to express themselves and evolve together.** That
+is why the deadlines for assignments were also thought through, to make them
+work best for students.
+
+**It relies on small habits, every day.** The final assignment was made to
+check exactly that. It cannot be done in one day. It is a small log kept from
+time to time. The assignments do not need a lot of time. They need thought and
+discipline.
 
 **Twice a week, every week.** An earlier schedule alternated. Techniques need
 a rhythm. The repetition is the teaching.
@@ -39,7 +40,6 @@ drowning are weeks this course spends being useful.
 
 ## What I would do differently
 
-<!-- MINE TO REWRITE. -->
 
 I let the content drift. Four pages went off-topic for a whole commit, and
 what caught it was the course *name*, not me reading the pages. A vaguer title
@@ -48,6 +48,8 @@ would have let all four through.
 I made attendance compulsory in a course whose standing promise is that you
 can always pass without giving a reason. I named that tension on the page
 rather than solving it, and it is still not solved.
+
+
 
 The no-invented-facts rule cost me things I wanted. Four times the research
 contradicted me and the correction went on the site anyway.

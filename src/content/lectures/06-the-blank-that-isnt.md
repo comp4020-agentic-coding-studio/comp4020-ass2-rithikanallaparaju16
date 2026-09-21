@@ -17,6 +17,7 @@ related:
   - sessions/11-when-it-helps
 heroImage: /src/assets/images/art/lec-blank-that-isnt.png
 heroImageAlt: "A person at a laptop on a bare desk, chin resting on one hand and a pen in the other. Flat gold and black on cream"
+slides: /decks/lec-06-the-blank-that-isnt/
 ---
 
 **Where.** Outdoors, venue posted by the Friday before. Opens with the

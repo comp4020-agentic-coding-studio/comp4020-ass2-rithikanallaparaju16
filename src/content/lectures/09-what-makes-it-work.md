@@ -19,6 +19,7 @@ related:
   - assessments/design-your-own
 heroImage: /src/assets/images/art/lec-not-that-serious.png
 heroImageAlt: "A speaker at a whiteboard, one hand open mid-sentence, with three people seated and standing in front of them. Flat gold and black on cream"
+slides: /decks/lec-09-what-makes-it-work/
 ---
 
 **Where.** Outdoors, venue posted by the Friday before. Opens with the

@@ -19,6 +19,7 @@ related:
   - 08-act-anyway
 heroImage: /src/assets/images/art/lec-borrowed.png
 heroImageAlt: "Stacks of bound journals and books on a library trolley and table, seen edge-on. Flat gold and black on cream"
+slides: /decks/lec-04-borrowed-and-renamed/
 ---
 
 **Where.** Outdoors, venue posted by the Friday before. Opens with the

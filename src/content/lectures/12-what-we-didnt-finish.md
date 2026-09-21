@@ -20,6 +20,7 @@ related:
   - assessments/the-log
 heroImage: /src/assets/images/art/lec-empty-slot.png
 heroImageAlt: "A windblown tree at the left with two small figures on a bench beneath it, and most of the frame left as open ground. Flat gold and black on cream"
+slides: /decks/lec-12-what-we-didnt-finish/
 ---
 
 **Where.** Outdoors, venue posted by the Friday before. Opens with the

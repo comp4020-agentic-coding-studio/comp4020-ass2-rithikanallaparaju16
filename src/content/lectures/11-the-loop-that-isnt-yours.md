@@ -19,6 +19,7 @@ related:
   - 08-act-anyway
 heroImage: /src/assets/images/art/lec-act-anyway.png
 heroImageAlt: "Three people in a room, one seated and gesturing, two standing and listening. Flat gold and black on cream"
+slides: /decks/lec-11-the-loop-that-isnt-yours/
 ---
 
 **Where.** Outdoors, venue posted by the Friday before. Opens with the

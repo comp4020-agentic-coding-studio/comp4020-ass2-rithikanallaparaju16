@@ -19,6 +19,7 @@ related:
   - 06-the-blank-that-isnt
 heroImage: /src/assets/images/art/lec-empty-slot.png
 heroImageAlt: "A windblown tree at the left with two small figures on a bench beneath it, and most of the frame left as open ground. Flat gold and black on cream"
+slides: /decks/lec-05-the-empty-slot/
 ---
 
 **Where.** Outdoors, venue posted by the Friday before. Opens with the

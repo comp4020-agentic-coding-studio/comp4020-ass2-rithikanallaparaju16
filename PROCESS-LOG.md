@@ -1095,6 +1095,44 @@ Each check was mutation-tested against the build output — broken on purpose,
 confirmed to fail on exactly its own promise, then restored — because a test
 that passes without being able to fail is worse than no test.
 
+### A deck for every lecture
+
+> now, add slide decks for lectures, atleast 1 that i explained in detail
+
+Three lectures had decks. Ten do now. The seven new ones are week 1, 4, 5, 6,
+9, 11 and 12, each wired through the schema's `slides` field so the lecture
+page carries an "Open the slides" link rather than a hand-written one.
+
+**Week 5 is the detailed one**, because it is the lecture the course is named
+after and the one that came most directly out of what I described. 25 slides
+against 13 for a normal deck. It walks the argument rather than summarising
+it. The room guesses why a loop repeats before the claim appears. Baird's four
+break conditions are put up as a prediction before the results table. The
+shower anecdote is planted early and paid off once the undemanding-task
+finding lands. Leroy's attention residue arrives second, as the thing that
+explains the repetition. Then the claim is assembled in four numbered steps.
+
+The last three slides are the ones that matter for this repo's rules. A table
+sorts the lecture into what is a finding and what is not, marking Baird 2012
+and Leroy 2009 as findings, the course's own claim as an untested inference,
+and the modern-life argument as a hunch. The slide after that names the
+competing explanation, that people who feel stuck seek distraction rather than
+the other way round. Nothing on a slide claims more than the lecture page it
+comes from, which I checked line by line rather than writing the decks from
+memory.
+
+Two decks also carry `notes` fences, which Reveal shows in the speaker view
+and the audience never sees. Week 5 uses one to warn that the modern-life
+slide is the emotional centre of the lecture and the part with the least
+support behind it.
+
+Deck backgrounds are seven new portrait crops of the same Stitch heroes, cut
+at the 0.42 canvas ratio the split layout uses.
+
+`pnpm check` after: 51 pages, 14 decks, no accessibility violations, no broken
+links, 22 tests. Checked in a browser too, since the last deck round had a
+split panel that built clean and rendered black.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

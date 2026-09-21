@@ -86,9 +86,17 @@ The same mistake returned reversed on the square portraits
 
 ![The same hero fixed, all five figures whole](process-images/playwright-after.png)
 
-**Cutting the AI slop.** Asking for a better tone does nothing. I handed over
-bans I could check afterwards, no em dashes, no prose colons, no "dive into",
-and asked for the changed sentences before and after
+**Cutting the AI slop.** Asking for a better tone does nothing, so I tried to
+fix it with a prompt of bans I could check afterwards.
+
+> Avoid AI giveaway phrases like "dive into," "unleash," or "game-changing."
+> […] Do not use emdashes […] Do not use colons unless part of input
+> formatting […] No fake engagement phrases like "Let's take a look" […]
+> Match the tone to feel human, authentic and not robotic or promotional.
+>
+> Keep the tone more human, there is a lot of sloppy ai text
+
+I also asked for the changed sentences before and after
 ([`fc21db0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/fc21db0),
 37 files). The rules went into `CLAUDE.md`, and
 [`534865f`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/534865f)

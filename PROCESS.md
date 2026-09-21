@@ -490,6 +490,24 @@ is mostly school-age maths, and that Kaminski, Sloutsky and Heckler's
 contested 2008 *Science* paper found generic examples transferring better than
 concrete ones.
 
+Then the front door, which was still selling the symptom rather than the
+claim:
+
+> SLOP6676: Unfinished Thinking […] this page still is more towards
+> overthinking, now chnage that tell me what else is left for me to get an HD
+
+[`ce6824a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/ce6824a) —
+opened the homepage and the course description on the claim instead of the
+word "overthinking", added an "Unfinished thinking" section ahead of the arc,
+and moved overthinking into the tags. The teaching order did not move: a
+"Where it starts, though" section immediately after says the first four weeks
+are the part you already recognise and the argument is not made until week 5.
+
+This is also where I corrected myself twice. The earlier "overflow at 390px"
+finding was wrong — macOS clamps a headless window to about 500px, so the
+measured `innerWidth` was 500 when 390 was asked for. Re-shot through real
+device emulation, nothing overflows.
+
 Then deliberate slowness, the mobile nav, and softening the schedule claim:
 
 > also add that we should practice "deliberetly slow down" we rush
@@ -651,6 +669,30 @@ Topics groups the same material by subject — catching yourself, why a loop
 repeats, making room, aiming it, where the ideas come from — and ends with the
 weeks the cohort has not voted on yet.
 
+Then Topics became decks, and moved:
+
+> okay i added another image for the main page and also one more for topics. i
+> want topics to be the lastr secong tab, not the first one. then i want
+> topics to have decks instead. after this commit and push […] i wanna close
+> my work for now and dont want to lose anything
+
+[`c22694f`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/c22694f) —
+Topics is now an index of four slide decks (Catching yourself, Why a loop
+repeats, Making room, Aiming it) rather than a list of links, and sits second
+from last in the nav. First use of the platform's astromotion decks, which
+had been sitting unused since the starter placeholder came out.
+
+The decks carry the same honesty rules as the pages, so they include the
+findings that cut against the course: meditation's adverse-effect rates,
+Michalak 2015 saying walk faster, Orben and Przybylski's 0.4%, and the Gee et
+al. seven-domain framework left unresolved. The central claim is labelled a
+hunch on its own slide. Two axe violations fixed on the way — empty table
+headers in two decks.
+
+A tidy-up followed immediately, because `git add -A` had swept two scratch
+screenshots into the previous commit:
+[`3450629`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/3450629).
+
 > create images for all the decks as well, whatever is created is good, for
 > the rest, all lectures, assignments etc. use the stitch images as base
 
@@ -718,6 +760,13 @@ introduces horizontal scroll, the footer's legal row is gone rather than
 left empty, and the console throws nothing. Phone width collapses the link
 row behind the existing hamburger, as it already did; the toggle and search
 stay on the visible bar throughout, which was the actual ask.
+
+### The AI-slop pass — [`fc21db0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/fc21db0)
+
+This is the commit where the writing stopped sounding like a machine wrote
+it. The prompt that drove it is quoted in full below; the write-up of it
+landed separately in
+[`44a2971`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/44a2971).
 
 Then a pass over the writing itself, across every page:
 
@@ -907,6 +956,42 @@ worded differently.
 
 `pnpm check` passes. 34 pages, no accessibility violations, no broken links,
 no structural violations in the decks.
+
+### Filling the twelve weeks, and fixing the portraits
+
+[`d9a7f5b`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/d9a7f5b) —
+weeks 8 to 12 get the crits and lectures the cohort vote is expected to land
+on. They are flagged `draft: true` and render with a Provisional banner, so
+the plan reads as a plan rather than as a promise. Three lectures gain their
+own decks, wired through the schema's `slides` field rather than a link in
+the body. The plain-writing rules from the tone pass went into `CLAUDE.md`,
+so the register survives the next edit rather than depending on me
+remembering it.
+
+The portraits were being cropped twice, which I had not noticed until I
+looked at a person page properly: the card frame is landscape and the person
+hero is about 3.3:1, so a square portrait lost a strip across the face at
+both sizes. Cards now use a square frame, and a person page shows its
+portrait inline instead of as a hero band.
+
+### Testing the promises the build cannot see
+
+[`534865f`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/534865f) —
+four spec suites, one per rule in `CLAUDE.md`: every activity that asks
+people to share carries an opt-out and nothing is marked on disclosure,
+every piece of evidence is dated, the assessment and schedule promises are
+actually printed on the pages, and the plain-writing bans hold. They read the
+built site rather than the markdown, because a rule that survives a content
+file but not a template is not a rule that holds.
+
+Writing the opt-out check found three crits that ask people to speak and
+offered no way to decline. That is the rule the whole care policy rests on,
+and the site had been breaking it in three places while claiming otherwise.
+Fixed in the same commit.
+
+Each check was mutation-tested against the build output — broken on purpose,
+confirmed to fail on exactly its own promise, then restored — because a test
+that passes without being able to fail is worse than no test.
 
 ## Before you ship
 

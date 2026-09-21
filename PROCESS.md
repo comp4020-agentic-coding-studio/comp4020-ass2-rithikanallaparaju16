@@ -604,15 +604,24 @@ on People and, later, for a tutor teaching a cohort. The banner does both — th
 teacher carries the same closed-eyed smile as the three portrait cards below
 it, so the page reads as one set instead of two ideas.
 
+**These two are what the AI drew**, in
+[`c4025b5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/c4025b5)
+and
+[`405024c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/405024c).
+Hand-written SVG, no image model involved, which is why they look the way they
+do. They pass a contrast check and they are the right two colours, and they
+still read as clip art. Three of the portraits are the same face.
+
 crit prev
 
-![The Crits hero as I drew it: flat gold faces on near-black, the listeners
-in a row rather than a circle](process-images/crit-before.png)
+![The Crits hero as the AI drew it: flat gold faces on near-black, the
+listeners in a row rather than a circle](process-images/crit-before.png)
 
 rendered people like this before
 
-![The People page with my authored portraits: three near-identical smiling
-faces, and a person page showing the same face large](process-images/people-before.png)
+![The People page with the AI's authored portraits: three near-identical
+smiling faces, and a person page showing the same face
+large](process-images/people-before.png)
 
 Then the artwork was replaced with a supplied set, and the cropping had to be
 solved properly:
@@ -630,6 +639,11 @@ and
 [`4882ece`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/4882ece) —
 swapped in the Stitch illustration suite, fixed the hero cropping, redrew the
 homepage theatre, and added a Topics page.
+
+**So I went and made the images myself**, in Google Stitch, and handed the
+whole set back to be swapped in at
+[`1645a50`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/1645a50).
+My captions on these two say what I was doing: the AI's version, then mine.
 
 used stitch fro professional
 
@@ -666,6 +680,34 @@ of stopping dead; and grow the hero with the viewport in `site.css`, coming
 back down below 640px where a tall box crops the sides away instead. Verified
 through Playwright at both marking viewports — about 66% of each artwork
 visible on desktop, 61% on phone, every subject intact.
+
+**The orientation was the whole bug.** My Stitch images came out 16:9. The
+theme's hero is a 2.36:1 band, so `object-fit: cover` filled the width and
+threw away the top and bottom of every one of them. On the Crits banner that
+meant cutting the heads off all five people, which is what the first
+screenshot below shows. Nothing was wrong with the artwork. It was the wrong
+shape for the slot.
+
+Two changes in
+[`4882ece`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/4882ece)
+fixed it, and both are things Astro's own pipeline made cheap. Each source
+image was padded out to 2.36:1 by replicating its edge columns, so the
+railings and ground that run off the sides carry on instead of stopping at a
+flat block of colour. Then the hero was allowed to grow with the viewport in
+`site.css` rather than sitting at a fixed 20rem. Because the heroes go through
+Astro's `astro:assets` pipeline, the padded sources get re-encoded to AVIF at
+each width the layout asks for, so a bigger source costs almost nothing at
+page weight: the Crits banner is a 727 KB PNG in the repo and ships as three
+AVIFs of 9, 20 and 24 KB.
+
+The same orientation mistake turned up again later with the portraits, in the
+opposite direction: those are square, and they were being put through a
+landscape card frame and a 3.3:1 person hero, so a strip got cut across every
+face. Fixed in
+[`d9a7f5b`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/d9a7f5b)
+by giving the cards a square frame and moving the portrait on a person page
+inline instead of into a hero band. Twice now, the bug was never the image. It
+was the aspect ratio of the hole it was going into.
 
 playwright before
 
@@ -795,12 +837,36 @@ stay on the visible bar throughout, which was the actual ask.
 
 ### The AI-slop pass — [`fc21db0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/fc21db0)
 
-This is the commit where the writing stopped sounding like a machine wrote
-it. The prompt that drove it is quoted in full below; the write-up of it
-landed separately in
-[`44a2971`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/44a2971).
+By this point the site was accurate and it still read like a machine wrote
+it. Em dashes everywhere, colons setting up every second sentence, the
+mild promotional lift that shows up when nobody asked for it.
 
-Then a pass over the writing itself, across every page:
+**I tried to fix it by giving examples rather than by asking for a better
+tone.** "Write more naturally" is the kind of instruction an agent agrees
+with and then ignores, because nothing in it can be checked. So I handed over
+a list of the specific things I did not want to see — no em dashes, no colons
+in prose, no "dive into" or "unleash" or "game-changing", no "Let's take a
+look", no rhetorical questions, no "X and also Y" — and named the audience,
+students who need this course, so the register had somewhere to aim. Bans are
+testable in a way that adjectives are not. Every one of those rules can be
+grepped for afterwards, and they were.
+
+Then I asked for the changed sentences to be written down, before and after,
+so I could see whether the pass had actually done anything or had just
+reported that it had. Those pairs are further down this section.
+
+The whole rewrite is
+[`fc21db0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/fc21db0),
+37 files. The write-up of it landed separately in
+[`44a2971`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/44a2971),
+and the rules themselves went into `CLAUDE.md` at
+[`d9a7f5b`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/d9a7f5b)
+so the tone would survive later edits instead of depending on me noticing.
+[`534865f`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/534865f)
+went one step further and turned the bans into a spec suite, so an em dash
+coming back now fails the build.
+
+Here is the prompt I gave:
 
 > You are a writing assistant trained decades to write in a clear, natural,
 > and honest tone. Your job is to rewrite or generate text based on the

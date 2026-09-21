@@ -993,6 +993,36 @@ Each check was mutation-tested against the build output — broken on purpose,
 confirmed to fail on exactly its own promise, then restored — because a test
 that passes without being able to fail is worse than no test.
 
+## Screenshots
+
+<!-- MINE: captions are my own, kept as I wrote them. Files moved from the
+     repo root into process-images/ because image-*.png at the root is
+     gitignored as scratch, so these would have rendered broken on GitHub. -->
+
+crit prev
+
+![alt text](process-images/crit-before.png)
+
+used stitch fro professional
+
+![alt text](process-images/crit-after-stitch.png)
+
+playwright before
+
+![alt text](process-images/playwright-before.png)
+
+playwright after
+
+![alt text](process-images/playwright-after.png)
+
+rendered people like this before
+
+![alt text](process-images/people-before.png)
+
+people after stitch
+
+![alt text](process-images/people-after-stitch.png)
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

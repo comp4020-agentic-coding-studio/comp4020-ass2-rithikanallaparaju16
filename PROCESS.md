@@ -604,6 +604,16 @@ on People and, later, for a tutor teaching a cohort. The banner does both — th
 teacher carries the same closed-eyed smile as the three portrait cards below
 it, so the page reads as one set instead of two ideas.
 
+crit prev
+
+![The Crits hero as I drew it: flat gold faces on near-black, the listeners
+in a row rather than a circle](process-images/crit-before.png)
+
+rendered people like this before
+
+![The People page with my authored portraits: three near-identical smiling
+faces, and a person page showing the same face large](process-images/people-before.png)
+
 Then the artwork was replaced with a supplied set, and the cropping had to be
 solved properly:
 
@@ -620,6 +630,17 @@ and
 [`4882ece`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-rithikanallaparaju16/commit/4882ece) —
 swapped in the Stitch illustration suite, fixed the hero cropping, redrew the
 homepage theatre, and added a Topics page.
+
+used stitch fro professional
+
+![The Stitch canvas: six landscape scene illustrations across the top and
+three inked portraits below, all in the same flat gold, black and cream
+register](process-images/crit-after-stitch.png)
+
+people after stitch
+
+![The People page with the Stitch portraits: three distinct inked faces on
+gold grounds, each clearly a different person](process-images/people-after-stitch.png)
 
 **Placement followed what each image shows** rather than what each page is
 called: the windblown tree with a bench under it to Lectures, the circle of
@@ -645,6 +666,17 @@ of stopping dead; and grow the hero with the viewport in `site.css`, coming
 back down below 640px where a tall box crops the sides away instead. Verified
 through Playwright at both marking viewports — about 66% of each artwork
 visible on desktop, 61% on phone, every subject intact.
+
+playwright before
+
+![The Crits hero mid-bug: the illustration cropped so hard that the five
+figures are beheaded and the nav sits on top of them](process-images/playwright-before.png)
+
+playwright after
+
+![The same hero after padding the source and growing the hero with the
+viewport: all five figures whole, the table visible beneath
+them](process-images/playwright-after.png)
 
 **On the lecture hall I had to say no twice, then find the third answer.** The
 request was to reuse the starter's banner, and I can't: `check:evidence`
@@ -992,36 +1024,6 @@ Fixed in the same commit.
 Each check was mutation-tested against the build output — broken on purpose,
 confirmed to fail on exactly its own promise, then restored — because a test
 that passes without being able to fail is worse than no test.
-
-## Screenshots
-
-<!-- MINE: captions are my own, kept as I wrote them. Files moved from the
-     repo root into process-images/ because image-*.png at the root is
-     gitignored as scratch, so these would have rendered broken on GitHub. -->
-
-crit prev
-
-![alt text](process-images/crit-before.png)
-
-used stitch fro professional
-
-![alt text](process-images/crit-after-stitch.png)
-
-playwright before
-
-![alt text](process-images/playwright-before.png)
-
-playwright after
-
-![alt text](process-images/playwright-after.png)
-
-rendered people like this before
-
-![alt text](process-images/people-before.png)
-
-people after stitch
-
-![alt text](process-images/people-after-stitch.png)
 
 ## Before you ship
 

@@ -40,19 +40,14 @@ drowning are weeks this course spends being useful.
 
 ## What I would do differently
 
+First, I would stick to the deadline. I really missed it this time.
 
-I let the content drift. Four pages went off-topic for a whole commit, and
-what caught it was the course *name*, not me reading the pages. A vaguer title
-would have let all four through.
+I would also plan the whole project content ahead. With better planning I do
+not think I would have changed the course name, or gone back and redone
+content a second time.
 
-I made attendance compulsory in a course whose standing promise is that you
-can always pass without giving a reason. I named that tension on the page
-rather than solving it, and it is still not solved.
-
-
-
-The no-invented-facts rule cost me things I wanted. Four times the research
-contradicted me and the correction went on the site anyway.
+And I would not waste credits generating images. I would go straight to Google
+Stitch, and use Playwright to check how they render.
 
 ## How I got here
 
